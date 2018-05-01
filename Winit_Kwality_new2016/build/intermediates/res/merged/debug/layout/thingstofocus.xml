@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GraphViewDemo" >
+
+    <LinearLayout
+        android:id="@+id/llthingsfocusheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvthingsfocus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Things to Focus"
+            android:textColor="#323232"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/thingsfocusdivider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dot_seperator" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/llPagerTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/size5"
+            android:background="@drawable/pager_slige_bg"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_thingstofocusnotAvialable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Things to focus not available!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

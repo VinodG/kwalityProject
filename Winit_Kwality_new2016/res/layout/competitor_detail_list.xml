@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="Captured Competitor Activity"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/Btn_Green_wrap"
+            android:layout_margin="@dimen/size10"
+            android:drawableLeft="@drawable/icon3"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            style="@style/Btn_Green_wrap"
+            android:layout_margin="@dimen/size10"
+            android:drawableLeft="@drawable/check5"
+            android:text="Add A Competitor Activity" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <TextView
+        android:id="@+id/tvNoproductfound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/No_item_found"
+        android:textColor="@color/gray_dark"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNoOrderFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="No record found."
+        android:textColor="@color/gray_light"
+        android:textSize="20dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

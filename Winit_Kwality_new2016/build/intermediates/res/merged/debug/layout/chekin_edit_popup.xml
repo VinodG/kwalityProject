@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/checkineditbg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitlePopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size25"
+                android:layout_marginTop="@dimen/size60"
+                android:drawableLeft="@drawable/edit_checkinoption"
+                android:drawablePadding="@dimen/size10"
+                android:padding="@dimen/size10"
+                android:text="Edit Customer Info"
+                android:textColor="#555555"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size30"
+                android:layout_marginRight="@dimen/size30"
+                android:background="@drawable/divideline1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size40"
+                android:layout_marginTop="@dimen/size10"
+                android:text="Contact Person"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/text_size_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_editcontactperson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:hint="Contact Person Name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/size10"
+                    android:singleLine="true"
+                    android:textColor="#3B3B3B"
+                    android:textColorHint="#3B3B3B"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:background="@drawable/edit_input" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size40"
+                android:layout_marginTop="@dimen/size10"
+                android:text="Contact Number"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/text_size_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_editcontactnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:hint="Customer Number"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="#3B3B3B"
+                    android:textColorHint="#3B3B3B"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:background="@drawable/edit_input" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Special Day"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/text_size_large"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/et_editspecialday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:hint="Enter Special Day"
+                    android:paddingLeft="10dp"
+                    android:textColor="#3B3B3B"
+                    android:textColorHint="#3B3B3B"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/edit_input" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/text_size_large"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_editdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:hint="Select Special Day&apos;s Date"
+                    android:paddingLeft="10dp"
+                    android:textColor="#3B3B3B"
+                    android:textColorHint="#3B3B3B"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/edit_inputwtharroe" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size40"
+                android:layout_marginTop="@dimen/size10"
+                android:text="Capture Latitude and Longitude"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/text_size_large" />
+
+            <LinearLayout
+                android:id="@+id/llCurrentLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_editlatlang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:drawablePadding="@dimen/size10"
+                    android:drawableRight="@drawable/gpsicon"
+                    android:editable="false"
+                    android:hint="Click to capture your Location"
+                    android:paddingLeft="@dimen/size10"
+                    android:textColor="#3B3B3B"
+                    android:textColorHint="#3B3B3B"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/ivCapLocETBG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size40"
+                    android:layout_marginRight="@dimen/size40"
+                    android:background="@drawable/edit_input" />
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/mMapFragment"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size200"
+                android:layout_marginBottom="@dimen/size10"
+                android:layout_marginLeft="@dimen/size40"
+                android:layout_marginRight="@dimen/size40"
+                android:layout_marginTop="@dimen/size10"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/size20"
+                android:layout_marginTop="@dimen/size10"
+                android:gravity="bottom|center_vertical">
+
+                <Button
+                    android:id="@+id/btn_Saveedit"
+                    style="@style/Btn_Popup_Green"
+                    android:layout_gravity="center_vertical"
+                    android:text="Save"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_Canceledit"
+                    style="@style/Btn_Popup_Yellow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/cancel"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSkip"
+                    style="@style/Btn_Popup_Yellow"
+                    android:layout_marginLeft="10dip"
+                    android:text="Skip"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

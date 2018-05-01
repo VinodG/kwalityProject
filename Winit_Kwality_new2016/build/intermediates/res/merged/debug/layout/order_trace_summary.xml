@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_textview_gray" />
+
+    <include layout="@layout/divider_dotted" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:text="View Order"
+            android:textColor="@color/greenText"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <Button
+            android:id="@+id/btnPrintOrderSummary"
+            style="@style/Btn_Green"
+            android:drawableLeft="@drawable/print_order"
+            android:text="Print Order" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5" >
+
+        <TextView
+            android:id="@+id/tvOrderTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Number: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:textColor="@color/gray_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5" >
+
+        <TextView
+            android:id="@+id/tvCustomerTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Code: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:textColor="@color/gray_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5" >
+
+        <TextView
+            android:id="@+id/tvStatusTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:    "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCodeLayout"
+        style="@style/Layout_Top_GreenBar"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="0dip"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tvCodeEOP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="@string/Item_Code_Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvUOM"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvShipped"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Shipped \nQty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvInProcess"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="InProcess \nQty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvCancelled"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Cancelled \nQty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoOrderFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="No_item_found"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/text_size_normal"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvOrderList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    </ListView>
+
+</LinearLayout>

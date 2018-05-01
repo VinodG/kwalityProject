@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/llClickToDownLoad"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvHeaderText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/evUOMType"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/unit_bg"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:nextFocusDown="@+id/etInvoice2"
+            android:numeric="decimal"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/evUnits"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/unit_bg"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/evShipped"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/unit_bg"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/evInProcess"
+            android:layout_width="90dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/unit_bg"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/evCancelled"
+            android:layout_width="90dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/unit_bg"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

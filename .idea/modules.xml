@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Winit_Kwality_new2016/Winit_Kwality_new2016.iml" filepath="$PROJECT_DIR$/Winit_Kwality_new2016/Winit_Kwality_new2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kwality  26-03-2018.iml" filepath="$PROJECT_DIR$/kwality  26-03-2018.iml" />
+    </modules>
+  </component>
+</project>

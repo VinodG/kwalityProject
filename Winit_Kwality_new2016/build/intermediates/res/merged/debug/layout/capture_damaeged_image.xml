@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_textview_gray"/>
+    <LinearLayout
+        style="@style/Layout_Top_withBtn" >
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right" >
+
+            <Button
+                android:id="@+id/btnTakeNew"
+                style="@style/Btn_Green_wrap"
+                android:drawableLeft="@drawable/icon2"
+                android:text="Take New Picture" />
+
+            <Button
+                android:id="@+id/btnContinue"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/cont"
+                android:text="Continue" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <GridView
+        android:id="@+id/gvImages"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_weight="1"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

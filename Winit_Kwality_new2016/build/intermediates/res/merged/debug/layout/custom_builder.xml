@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/size60" >
+
+    <LinearLayout
+        android:id="@+id/llView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcornerpopup"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvTitleBuider"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:padding="15dip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivPopupClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingBottom="10dip"
+                android:src="@drawable/close_dailog" />
+        </LinearLayout>
+
+        <include layout="@layout/divider_normal"/>
+        <include layout="@layout/search_bar_dark_full"/>
+        <!-- <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topbgbg"
+            android:orientation="horizontal"
+            android:paddingBottom="10dip" >
+
+            <EditText
+                android:id="@+id/etSelectItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="0"
+                android:background="@drawable/search_by_brand_bg"
+                android:drawableLeft="@drawable/search_icon_2"
+                android:drawablePadding="10dip"
+                android:gravity="center_vertical"
+                android:imeOptions="actionDone"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout> -->
+
+        <ListView
+            android:id="@+id/lvSelectCountry"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:cacheColorHint="@null"
+            android:visibility="visible"
+            android:scrollbars="none" >
+        </ListView>
+        <GridView
+            android:id="@+id/gvSelectCountry"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:verticalSpacing="5dp"
+            android:horizontalSpacing="5dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:numColumns="3"
+            android:visibility="gone"
+             >
+        </GridView>
+
+        <TextView
+            android:id="@+id/tvNoSearchFound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/No_matching_record_found"
+            android:textColor="@color/gray_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

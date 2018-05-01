@@ -1,0 +1,5 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnTwo"
+    style="@style/Btn_Popup_Yellow"
+    android:text="@string/cancel" />

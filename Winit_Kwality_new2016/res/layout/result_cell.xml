@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/size50"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cbList1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_2"
+                android:src="@drawable/uncheckbox" />
+
+            <TextView
+                android:id="@+id/tvItemCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/size2"
+                android:singleLine="true"
+                android:text="@string/Item_Code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="1dip"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:maxLines="2"
+                android:text="@string/Item_Description"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVanQty"
+                android:layout_width="@dimen/size40"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/size3"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="999"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- new -->
+
+    <LinearLayout
+        android:id="@+id/llReasion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/salable_arrow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9E9DF"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_7"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/llnonsellable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <CheckBox
+                        android:id="@+id/ivReturnReason1"
+                        android:layout_width="@dimen/size180"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:background="@drawable/return_order_checked"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/size50"
+                        android:text="@string/ReturnReason1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+
+<!--                     <CheckBox -->
+<!--                         android:id="@+id/ivReturnReason2" -->
+<!--                         android:layout_width="@dimen/size123" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_marginLeft="@dimen/margin_5" -->
+<!--                         android:background="@drawable/return_order_checked" -->
+<!--                         android:button="@null" -->
+<!--                         android:gravity="center_vertical" -->
+<!--                         android:paddingLeft="@dimen/size26" -->
+<!--                         android:text="@string/ReturnReason2" -->
+<!--                         android:textColor="@color/black" -->
+<!--                         android:textSize="@dimen/text_size_very_small" /> -->
+
+                    <CheckBox
+                        android:id="@+id/ivReturnReason3"
+                        android:layout_width="@dimen/size180"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:background="@drawable/return_order_checked"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/size50"
+                        android:text="@string/ReturnReason3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+
+<!--                     <CheckBox -->
+<!--                         android:id="@+id/ivReturnReason4" -->
+<!--                         android:layout_width="@dimen/size123" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_marginLeft="@dimen/margin_5" -->
+<!--                         android:background="@drawable/return_order_checked" -->
+<!--                         android:button="@null" -->
+<!--                         android:gravity="center_vertical" -->
+<!--                         android:paddingLeft="@dimen/margin_40" -->
+<!--                         android:text="@string/ReturnReason4" -->
+<!--                         android:textColor="@color/black" -->
+<!--                         android:textSize="@dimen/text_size_very_small" /> -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size10"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <EditText
+                        android:id="@+id/etRemark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_line"
+                        android:hint="Remarks"
+                        android:imeOptions="actionNext|actionDone"
+                        android:paddingRight="@dimen/size5"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_small" />
+
+                    <ImageView
+                        android:id="@+id/ivIcon"
+                        android:layout_width="@dimen/size45"
+                        android:layout_height="@dimen/size45"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:background="@drawable/uncheck_box"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/btnCaptureImages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/size5"
+                        android:background="@drawable/capture_btn"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="fill_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginLeft="@dimen/margin_10" -->
+                <!-- android:layout_marginRight="@dimen/size5" -->
+                <!-- android:layout_marginTop="@dimen/size10" -->
+                <!-- android:hint="Remarks" -->
+                <!-- android:imeOptions="actionNext|actionDone" -->
+                <!-- android:orientation="horizontal" -->
+                <!-- android:paddingLeft="@dimen/size5" -->
+                <!-- android:paddingRight="@dimen/size5" > -->
+
+
+                <!-- <EditText -->
+                <!-- android:layout_width="fill_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="bottom" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:background="@drawable/input_line" -->
+                <!-- android:hint="Remarks" -->
+                <!-- android:imeOptions="actionNext|actionDone" -->
+                <!-- android:paddingRight="@dimen/size5" -->
+                <!-- android:singleLine="true" -->
+                <!-- android:textSize="@dimen/text_size_small" /> -->
+                <!-- </LinearLayout> -->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

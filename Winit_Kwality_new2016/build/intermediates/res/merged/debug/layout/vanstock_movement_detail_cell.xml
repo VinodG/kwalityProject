@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llCellClick"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/size5"
+        android:paddingTop="@dimen/size5" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_15" >
+
+            <TextView
+                android:id="@+id/tvItemCode"
+                android:layout_width="@dimen/size100"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_5"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:paddingBottom="@dimen/margin_5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRequestedQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvQtyInCS"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size60"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="UNIT"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvQtyInEA"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size40"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="UNIT"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llApprovedQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/ivApprovedSep"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <com.winit.alseer.salesman.common.CustomEditText
+                android:id="@+id/edtApprovedQtyInCS"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size60"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_2"
+                android:layout_marginRight="@dimen/margin_2"
+                android:layout_weight="0"
+                android:background="@null"
+                android:drawableBottom="@drawable/edt_input"
+                android:drawablePadding="@dimen/size_7"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="textNoSuggestions"
+                android:maxLength="5"
+                android:paddingBottom="@dimen/size8"
+                android:paddingTop="@dimen/margin_5"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvApprovedQtyInEA"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size40"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="UNIT"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCollectedQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvCollectedQtyInCS"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size60"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="UNIT"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvCollectedQtyInEA"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="@dimen/size40"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="UNIT"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver" />
+
+</LinearLayout>

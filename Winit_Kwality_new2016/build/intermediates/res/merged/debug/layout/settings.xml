@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTopLayout"
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_extra_large"
+            android:visibility="visible" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnSync"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/refresh"
+            android:gravity="center_vertical"
+            android:text="Sync Data"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted" />
+
+    <TextView
+        android:id="@+id/tvChangePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/lock1"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Change Password"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_extra_large"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/divider_normal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvSplashScreenTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/settings_cell_height"
+        android:drawableLeft="@drawable/next_arrow"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Change Splash Screen Theme"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvUploadData"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/upload2"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upload debug logs"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_extra_large" />
+
+    <include layout="@layout/divider_normal" />
+
+    <TextView
+        android:id="@+id/tvUploadAllData"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/upload2"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upload Data"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_extra_large" />
+
+    <include layout="@layout/divider_normal" />
+    
+    <TextView
+        android:id="@+id/tvUpgradeApp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/upload2"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upgrade App"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_extra_large" />
+
+    <include layout="@layout/divider_normal" />
+
+    <TextView
+        android:id="@+id/tvUpdateJourneyPlan"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/settings_cell_height"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Update Journey Plan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvServiceSyncTimeLog"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/settings_cell_height"
+        android:drawableLeft="@drawable/next_arrow"
+        android:drawableRight="@drawable/next_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Sync Data"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/list1" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Default Load Quantity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <EditText
+            android:id="@+id/etDefaultLoadQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/edt_input"
+            android:gravity="center_horizontal"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLines="4"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:textColor="@color/text_color_dark"
+            android:textColorHint="@color/gray_light"
+            android:textSize="@dimen/text_size_extra_large" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_normal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="Select URL"
+            android:singleLine="true"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvURL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select URL"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:paddingBottom="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Version Number :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvSettingVersionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="1.0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dip"
+            android:text="Developed by"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingRight="5dip"
+            android:text="WINIT"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+</LinearLayout>

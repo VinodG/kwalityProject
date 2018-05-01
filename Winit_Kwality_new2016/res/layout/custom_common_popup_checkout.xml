@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bgmain"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitlePopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size10"
+            android:layout_marginLeft="@dimen/size20"
+            android:layout_marginRight="@dimen/size30"
+            android:layout_marginTop="@dimen/size40"
+            android:drawableLeft="@drawable/alert"
+            android:drawablePadding="@dimen/size10"
+            android:text="Warning!"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_extra_extra_extra_large"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/divideline1" />
+
+        <TextView
+            android:id="@+id/tvMessagePopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Do you want to check out?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lvSalesOutlet"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/size10"
+            android:layout_marginLeft="@dimen/size25"
+            android:layout_marginRight="@dimen/size25"
+            android:layout_weight="1"
+            android:divider="#A1A1A1"
+            android:dividerHeight="2px"
+            android:fadingEdgeLength="0dp"
+            android:scrollbars="none" >
+        </ListView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/divideline1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/size30"
+            android:layout_marginTop="5dip"
+            android:gravity="center|bottom" >
+
+            <Button
+                android:id="@+id/btnYesPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/okbtn"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="@string/OK"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNoPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/skipbtn"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

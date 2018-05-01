@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/capture_item_btn" android:state_activated="false"/>
+    <item android:drawable="@drawable/capture_item_btn_h" android:state_pressed="true"/>
+
+</selector>

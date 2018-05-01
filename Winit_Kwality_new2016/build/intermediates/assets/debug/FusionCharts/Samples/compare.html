@@ -1,0 +1,48 @@
+<html>
+<head>
+<link href="file:///android_asset/FusionCharts/style.css" rel="stylesheet" type="text/css" />
+<link href="file:///android_asset/FusionCharts/prettify.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="file:///android_asset/FusionCharts/FusionCharts.js"></script>
+<script type="text/javascript" src="file:///android_asset/FusionCharts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/FusionCharts/prettify.js"></script>
+<script type="text/javascript" src="file:///android_asset/FusionCharts/json2.js"></script>
+<script type="text/javascript">
+ $(document).ready ( function () {
+ $("a.view-chart-data").click( function () {
+  var chartDATA = '';
+ if ($(this).children("span").html() == "View XML" ) {
+                        chartDATA = FusionCharts('ChartId').getChartData('xml').replace(/\</gi, "&lt;").replace(/\>/gi, "&gt;");
+    } else if ($(this).children("span").html() == "View JSON") {
+ chartDATA = JSON.stringify( FusionCharts('ChartId').getChartData('json') ,null, 2);
+                    }
+                    $('pre.prettyprint').html( chartDATA );
+                    $('.show-code-block').css('height', ($(document).height() - 56) ).show();
+                    prettyPrint();
+                })
+
+                $('.show-code-close-btn a').click(function() {  $('.show-code-block').hide(); }); }) </script>
+</head>
+<body>
+	<script type="text/javascript">  
+	var chart = new FusionCharts("file:///android_asset/FusionCharts/Pie3D.swf", "ChartId", "560", "340", "0", "0");
+	chart.setXMLData("<chart caption="Sales Report" palette="2" animation="1" subCaption="(Click to slice out)" YAxisName="Sales Achieved" showValues="1" numberPrefix="$" formatNumberScale="0" showPercentInToolTip="0" showLabels='1' showLegend='0'>
+	<set label="Item 0" value="17111" isSliced="0" />
+	<set label="Item 1" value="86314" isSliced="0" />
+	<set label="Item 2" value="56703" isSliced="0" />
+	<set label="Item 3" value="39430" isSliced="0" />
+	<set label="Item 4" value="70392" isSliced="0" />
+	<styles>
+	<definition>
+	<style type="font" name="CaptionFont" color="666666" size="15" />
+	<style type="font" name="SubCaptionFont" bold="0" />"
+	</definition>
+	<application>
+	<apply toObject="caption" styles="CaptionFont" />
+	<apply toObject="SubCaption" styles="SubCaptionFont" />
+	</application>
+	</styles>
+	</chart>");
+	chart.render("chartdiv");
+	</script>
+</body>
+<html>

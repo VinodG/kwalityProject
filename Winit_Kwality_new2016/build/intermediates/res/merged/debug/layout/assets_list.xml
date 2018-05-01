@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvAssetsTitle"
+            android:text="Assets"
+            style="@style/TextHeaderGray"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btnAssetRequest"
+                style="@style/Btn_Green_wrap"
+                android:text="Asset Request"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnAssetSubmit"
+                style="@style/Btn_Green_wrap"
+                android:layout_width="@dimen/btn_width_small"
+                android:text="Submit"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnAssetScan"
+                style="@style/Btn_Green_wrap"
+                android:layout_width="@dimen/btn_width_small"
+                android:text="Scan"
+                android:visibility="visible" />
+            <!-- android:drawableLeft="@drawable/scan" -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted"/>
+
+    <ListView
+        android:id="@+id/lvAssets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvNoAssets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No assets are available"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_normal" />
+
+</LinearLayout>

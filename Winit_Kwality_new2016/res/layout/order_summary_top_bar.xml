@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_10" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/OrderSummaryTopItemHeight"
+        android:layout_weight="1"
+        android:background="@drawable/covrage_percentage_bg"
+        android:padding="@dimen/size3" >
+
+        <TextView
+            android:id="@+id/tvSalesOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="Sales Invoice"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSalesOrderCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSalesOrderCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:gravity="center_vertical"
+            android:text="AED"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSalesOrderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tvSalesOrderCurrency"
+            android:gravity="center_vertical"
+            android:text="234"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_large"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/OrderSummaryTopItemHeight"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_weight="1"
+        android:background="@drawable/actual_call_bg"
+        android:padding="@dimen/size3" >
+
+        <TextView
+            android:id="@+id/tvSavedOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="Saved order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSavedOrderCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSavedOrderCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:gravity="center_vertical"
+            android:text="AED"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSavedOrderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tvSavedOrderCurrency"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_large"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlGRV"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/OrderSummaryTopItemHeight"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_weight="1"
+        android:background="@drawable/schedule_call_bg"
+        android:padding="@dimen/size3" >
+
+        <TextView
+            android:id="@+id/tvReturnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="GRV"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvReturnOrderCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvReturnOrderCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:gravity="center_vertical"
+            android:text="AED"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvReturnOrderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tvReturnOrderCurrency"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_large"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitleSync"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="Sync Time for Services"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_extra_large" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/llCode"
+        style="@style/Layout_Top_GreenBar" >
+
+        <TextView
+            android:id="@+id/tvServiceName"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="Service Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvSyncTime"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Sync Time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="#00000000"
+            android:layout_marginRight="5dip" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSyncLog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvResultOfSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No record found"
+        android:textColor="@color/gray_dark"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

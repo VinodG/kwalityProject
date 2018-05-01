@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_main_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size20"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_new"
+                    android:hint="@string/usercode_hint"
+                    android:imeOptions="actionNext"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingLeft="@dimen/size10"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="@dimen/text_size_extra_extra_extra_large" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/size30"
+                    android:background="@drawable/input_new"
+                    android:hint="@string/Password_hint"
+                    android:imeActionLabel="Login"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:paddingBottom="@dimen/size7"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="@dimen/text_size_extra_extra_extra_large" />
+
+                <LinearLayout
+                    android:id="@+id/ll_rememberme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size30"
+                    android:layout_marginTop="@dimen/size15"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/ivCheck_rememberMe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/remeber_me_uncheck_box" />
+
+                    <TextView
+                        android:id="@+id/tvRemember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size8"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:text="@string/Remember_me"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/text_size_very_large" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginLeft="8dip"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:layout_marginRight="@dimen/size10"
+                    android:layout_marginTop="@dimen/size15"
+                    android:background="@drawable/login_btn_bg"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCurrentversion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dip"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvCurrentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size10"
+        android:background="@drawable/bg_version"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/size5"
+        android:paddingLeft="@dimen/size15"
+        android:paddingRight="@dimen/size15"
+        android:paddingTop="@dimen/size5"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release Date"
+            android:textColor="#4E2608"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_10"
+            android:text=" : "
+            android:textColor="#4E2608"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_release"
+            android:textColor="#4E2608"
+            android:textSize="@dimen/text_size_small" />
+
+        <!-- <LinearLayout
+            android:id="@+id/llTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:text="Version"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_10"
+                android:text=" : "
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>-->
+        <LinearLayout
+            android:id="@+id/llTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:text="Test Build"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_10"
+                android:text=" : "
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="6.8"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llLive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:text="Live Build"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_10"
+                android:text=" : "
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="KWALITY LIVE"
+                android:textColor="#4E2608"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

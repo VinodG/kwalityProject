@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llHeaderWithTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size10" >
+
+        <TextView
+            android:id="@+id/tvSlNo"
+            android:layout_width="@dimen/size20"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:text="1"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:id="@+id/tvTrxType"
+            android:layout_width="@dimen/size50"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="Sales Invoice"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:id="@+id/tvTrxNo"
+            android:layout_width="@dimen/size100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="VCD4S123456T78"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:id="@+id/tvTrxDate"
+            android:layout_width="@dimen/size60"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:gravity="center_vertical|center"
+            android:text="14/11/2014"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:id="@+id/tvDebitAmount"
+            android:layout_width="@dimen/size60"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="center_vertical|center"
+            android:text="00.00"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:id="@+id/tvCreditAmount"
+            android:layout_width="@dimen/size60"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="00.00"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/text_size_very_small" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver"
+        android:visibility="gone" />
+
+</LinearLayout>

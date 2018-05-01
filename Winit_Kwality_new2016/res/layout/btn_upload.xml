@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnUpload"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_marginRight="@dimen/margin_5"
+    android:background="@drawable/btn_newreq_click"
+    android:gravity="center"
+    android:padding="@dimen/margin_5"
+    android:text="Upload Data"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/text_size_large" />

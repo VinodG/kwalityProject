@@ -1,0 +1,55 @@
+<chart
+    YAxisName="Sales Achieved"
+    animation="1"
+    formatNumberScale="0"
+    numberPrefix="$"
+    palette="2"
+    showLabels="1"
+    showLegend="0"
+    showPercentInToolTip="0"
+    showValues="1" >
+
+    <set
+        isSliced="0"
+        label=""
+        value="" />
+
+    <set
+        isSliced="0"
+        label="produt1"
+        value="18000" />
+    
+    <set
+        isSliced="0"
+        label="produt1"
+        value="18000" />
+
+    <styles>
+
+        <definition>
+
+            <style
+                name="CaptionFont"
+                size="15"
+                type="font"
+                color="666666" />
+
+            <style
+                name="SubCaptionFont"
+                bold="0"
+                type="font" />
+        </definition>
+
+        <application>
+
+            <apply
+                styles="CaptionFont"
+                toObject="caption" />
+
+            <apply
+                styles="SubCaptionFont"
+                toObject="SubCaption" />
+        </application>
+    </styles>
+
+</chart>

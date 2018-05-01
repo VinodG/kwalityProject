@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_10" >
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="@dimen/size40"
+                android:layout_height="@dimen/size40" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/llOrderedItemName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvOrderedItemName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/greenText"
+                        android:textSize="@dimen/text_size_normal" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tvOrderedItemMeasurment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/info_black"
+                        android:textSize="@dimen/text_size_small"
+                        android:visibility="gone" >
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvOrderedItemDesc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:maxLines="2"
+                    android:text="asadsAF"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_small" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvOrderedItemDesc2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etItemUOM"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="visible" >
+        </EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etOrderedQuantity"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="visible" >
+        </EditText>
+
+        <com.winit.alseer.salesman.common.CustomEditText
+            android:id="@+id/etQuantity"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_marginRight="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_15"
+            android:background="@null"
+            android:drawableBottom="@drawable/edt_input"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="@null"
+            android:maxLength="5"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="fjdkshfk"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small" >
+        </EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etTotalPrice"
+            android:layout_width="@dimen/width_confer_large"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small" >
+        </EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etDiscount"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small" >
+        </EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <EditText
+            android:id="@+id/etInvoiceAmount"
+            android:layout_width="@dimen/width_confer_large"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_small" >
+        </EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,424 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_textview_gray"/>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        style="@style/Layout_Top_withBtn" >
+
+        <Button
+            android:id="@+id/btnServiceRequest"
+            android:text="Service \nReq"
+            style="@style/Btn_Green_wrap"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnAssetCapture"
+            android:text="Capture \nBarcode"
+            style="@style/Btn_Green_wrap"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnCaptureTemp"
+            android:text="Capture \nTemp"
+            style="@style/Btn_Green_wrap"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            style="@style/Btn_Green_wrap"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="Continue"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvCustomerName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size5"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginTop="@dimen/size5"
+                android:text="Customer/StoreName"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_marginTop="@dimen/size5"
+                    android:background="@drawable/smallbdr"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/ivAssetPic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/freez" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:text="Asset Name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/tvAssetName"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size5"
+                            android:layout_weight="7"
+                            android:gravity="left"
+                            android:text="Chiller"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/size5" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:text="Capacity"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/tvCapacity"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size5"
+                            android:layout_weight="7"
+                            android:gravity="left"
+                            android:text="275 litr"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/size5" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:text="Installation Date"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/tvInstallation"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size5"
+                            android:layout_weight="7"
+                            android:gravity="left"
+                            android:text="12th jan 2014"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/size5" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:text="Last Service"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <TextView
+                            android:id="@+id/tvLastService"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size5"
+                            android:layout_weight="7"
+                            android:gravity="left"
+                            android:text="12th jan 2014"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_assetRecomedplanogram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size10"
+                android:background="@drawable/green_bar"
+                android:text="Asset Barcode Capture"
+                style="@style/TextHeaderGreenBG"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size220"
+                android:layout_margin="@dimen/size10"
+                android:background="@drawable/bdr"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/ivAssetImage"
+                    android:layout_width="@dimen/size200"
+                    android:layout_height="@dimen/size200"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/size10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/size5" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Enter Asset Temperature"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" : "
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/etAssetTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_weight="7"
+                    android:background="@null"
+                    android:drawableBottom="@drawable/text_field_1"
+                    android:gravity="left"
+                    android:paddingBottom="@dimen/size2"
+                    android:paddingLeft="@dimen/size10"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_assetTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size10"
+                android:background="@drawable/green_bar"
+                android:padding="@dimen/margin_5"
+                android:text="Asset Temperature Capture"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/llAssetTempImg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size220"
+                android:layout_margin="@dimen/size10"
+                android:background="@drawable/bdr"
+                android:gravity="center"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/ivAssettempImage"
+                    android:layout_width="@dimen/size220"
+                    android:layout_height="@dimen/size200"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/size10" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_assetCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size10"
+                android:background="#1767B0"
+                android:padding="@dimen/size5"
+                android:text="Asset Capture"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/llAssetImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10"
+                android:background="@drawable/bdr"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/ivAssetCaptureImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size200"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/size10" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginTop="@dimen/size5"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size15"
+                        android:text="Subject"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvsubject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:gravity="left"
+                        android:text="Chiller"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/size5" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size15"
+                        android:text="Description"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" : "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvdescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size5"
+                        android:gravity="left"
+                        android:text="Chiller"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

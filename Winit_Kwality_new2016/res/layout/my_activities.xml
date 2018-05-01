@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical" >
+    <include layout="@layout/header_textview_gray_with_btn" />
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="right"
+        android:padding="@dimen/margin_5" >
+        <Button
+            android:id="@+id/btnCapture"
+            style="@style/Btn_Green_wrap"
+            android:text="Capture shelf Photo" />
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/Btn_Green_wrap"
+            android:text="Refresh" />
+        <Button
+            android:id="@+id/btnFinish"
+            style="@style/Btn_Green_wrap"
+            android:text="Finish" />
+    </LinearLayout>
+    <include layout="@layout/divider_dotted" />
+    <ListView
+        android:id="@+id/lv_myactivities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </ListView>
+    <TextView
+        android:id="@+id/tvRecords"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No activity found."
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        android:visibility="gone" >
+    </TextView>
+</LinearLayout>

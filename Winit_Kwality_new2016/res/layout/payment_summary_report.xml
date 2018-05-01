@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/TextHeaderGray"
+            android:text="Payment Summary Report" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/print_conf_white"
+            android:paddingLeft="@dimen/margin_20"
+            android:text="Print" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted" />
+
+    <LinearLayout
+        android:id="@+id/llOrderDetailLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10" >
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            style="@style/TextHeaderGray"
+            android:padding="0dp"
+            android:text="Customer Name"
+            android:textColor="@color/greenText" />
+
+        <TextView
+            android:id="@+id/tvCustomerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:text="Customer Address"
+            android:textColor="@color/text_color_normal"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text="For the Period:"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvFromDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:drawableRight="@drawable/cal_black"
+                android:drawablePadding="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:padding="0dp"
+                android:textColor="@color/text_color_normal"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvToDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:drawableRight="@drawable/cal_black"
+                android:drawablePadding="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:padding="0dp"
+                android:textColor="@color/text_color_normal"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeaderWithTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_5"
+        android:paddingRight="@dimen/margin_5"
+        android:background="@color/green_bar"
+        android:gravity="center_vertical"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" >
+
+        <TextView
+            android:layout_width="@dimen/size40"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Sl No."
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:layout_width="@dimen/size80"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Rcpt No."
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <TextView
+            android:layout_width="@dimen/size70"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Rcpt Date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <LinearLayout
+            android:layout_width="@dimen/size80"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rcpt Amt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+
+            <TextView
+                android:id="@+id/tvRcptAmountTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+<ImageView android:layout_width="1dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sep_ver"/>
+        <LinearLayout
+            android:layout_width="@dimen/size140"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/margin_5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/margin_5"
+                android:text="Payment Type"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+<ImageView android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@drawable/sep_ver"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/margin_5"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:text="Check"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_very_small" />
+
+<ImageView
+    android:layout_width="1dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sep_ver" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/margin_5"
+                    android:paddingBottom="@dimen/margin_5"
+                    android:gravity="center"
+                    android:text="Cash"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_very_small" />
+            </LinearLayout>
+        </LinearLayout>
+<ImageView android:layout_width="1dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sep_ver"/>
+        <LinearLayout
+            android:layout_width="@dimen/size80"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inv Amt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+
+            <TextView
+                android:id="@+id/tvInvAmountTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/size100"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="Ref No."
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoOrderFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="No_item_found"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/text_size_normal"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvOrderList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_5"
+        android:visibility="visible" >
+    </ListView>
+
+</LinearLayout>

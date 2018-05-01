@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size3"
+        android:background="@color/alserr_line_green" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size3"
+        android:layout_marginTop="1dp"
+        android:background="@color/alserr_line_yellow" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginRight="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="@dimen/size110"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/Order_value"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+                <TextView
+                    android:id="@+id/tvOrderValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="@dimen/size110"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Discount Value"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+                <TextView
+                    android:id="@+id/tvDiscValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="@dimen/size110"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/Total_value"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_very_large" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" :"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_very_large" />
+            <TextView
+                android:id="@+id/tvTotalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:gravity="right"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_very_large" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

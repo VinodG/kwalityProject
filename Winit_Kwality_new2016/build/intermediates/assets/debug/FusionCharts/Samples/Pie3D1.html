@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+        <link href="../../FusionCharts/utils/style.css" rel="stylesheet" type="text/css" />
+        <link href="../../FusionCharts/utils/prettify.css" rel="stylesheet" type="text/css" />
+        <script language="JavaScript" src="../../FusionCharts/JS/FusionCharts.js"></script>
+        <script type="text/javascript" src="../../FusionCharts/JS/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="../../FusionCharts/JS/prettify.js"></script>
+        <script type="text/javascript" src="../../FusionCharts/JS/json2.js"></script>
+
+        <!--[if IE 6]>
+        <script type="text/javascript" src="../../FusionCharts/JS/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          /* select the element name, css selector, background etc */
+          DD_belatedPNG.fix('img');
+
+          /* string argument can be any CSS selector */
+        </script>
+		  <p>&nbsp;</p>
+		  <P align="center"></P>
+        <![endif]-->
+    </head>   
+
+<body>
+<p>&nbsp;</p>
+<div id="chartdiv" align="center"> 
+        FusionCharts. </div>
+      <script type="text/javascript">
+		   var chart = new FusionCharts("../../FusionCharts/SWF/Pie3D.swf", "ChartId", "540", "250", "0", "0");
+		   chart.setXMLUrl("../../FusionCharts/Data/Pie3D1.xml");		   
+		   chart.render("chartdiv");
+		</script>
+		  <!-- <p>&nbsp;</p> -->
+		  <!-- <P align="center">3D Pie chart showing top 5 employees for 1996. Click on a pie slice or its legend item to highlight it or use right-click option.</P> 
+ <br/>  -->
+<!-- <div class="qua-button-holder">
+              <a class="qua qua-button view-chart-data" href="javascript:void(0)"><span>View XML</span></a>
+             <a class="qua qua-button view-chart-data" href="javascript:void(0)"><span>View JSON</span></a>
+ </div>
+       
+        <div class="show-code-block">
+             <div class="show-code-close-btn"><a class="qua qua-button" href="javascript:void(0)"><span>Close</span></a></div>
+             <pre class="prettyprint"></pre>
+         </div> -->
+     </body>
+ </html>

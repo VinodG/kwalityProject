@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"  >
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/TextHeaderGray"
+            android:text="Missed Order" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_divider" />
+
+    <TextView
+        android:id="@+id/tvAgenciesName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_15"
+        android:singleLine="true"
+        android:text="gdhghdfh"
+        android:textColor="@color/greenText"
+        android:textSize="@dimen/size20"
+        android:textStyle="bold" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_divider" />
+    
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/sep_ver"
+        android:listSelector="@color/transparent"
+        android:dividerHeight="0.5dip"
+        android:fadeScrollbars="true"
+        android:fadingEdgeLength="0dip" />
+
+    <include layout="@layout/no_data_textview" />
+     
+
+</LinearLayout>

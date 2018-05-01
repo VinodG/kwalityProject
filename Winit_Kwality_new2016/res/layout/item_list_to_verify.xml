@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            style="@style/TextHeaderGray"
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/llOrderSheetTotal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llBottomBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnOrdersheetReport"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/icon4"
+                    android:text="Report"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnScan"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/scan"
+                    android:text="Scan"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/add"
+                    android:text="Add"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnPrint"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/print"
+                    android:text="Print"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnContinue"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/cont"
+                    android:text="Continue"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnFinish"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/cont"
+                    android:text="Finish"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnOrdersheetVerify"
+                    style="@style/Btn_Green_wrap"
+                    android:drawableLeft="@drawable/check5"
+                    android:text="Verify" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbg"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvItemList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar" >
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".9"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/Item_Code_Description"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tvCases"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/sep_new"
+            android:gravity="center"
+            android:text="@string/Cases"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tvUnits"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/sep_new"
+            android:gravity="center"
+            android:text="@string/Units"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <ImageView
+            android:id="@+id/ivCheckAllItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="0"
+            android:src="@drawable/check_normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/gray_light"
+        android:textSize="20dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llordersheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

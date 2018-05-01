@@ -1,0 +1,7 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvPageTitle"
+    style="@style/TextHeaderLargeW0"
+    android:layout_width="fill_parent"
+    android:background="@drawable/topbgbg"
+    android:text="Order Summary" />

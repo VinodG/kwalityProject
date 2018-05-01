@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selected"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/ivbar_code"
+            android:layout_width="@dimen/size70"
+            android:layout_height="@dimen/size70"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/size10" />
+
+        <ImageView
+            android:id="@+id/ivbar_code_noImage"
+            android:layout_width="@dimen/size70"
+            android:layout_height="@dimen/size70"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/size10"
+            android:background="@drawable/no_image"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvAssetScanItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size10"
+                android:maxLines="2"
+                android:text="Chiller (768945)"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAssetScanStoreName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="MASAFI_MW_C"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="@color/gray_dark" />
+
+            <TextView
+                android:id="@+id/tvAssetScanDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size3"
+                android:text="@string/Alert1date"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size10"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvQuantityTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size5"
+                android:maxLines="2"
+                android:text="@string/Quantity"
+                android:textColor="@color/gray_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/smalltextinputbg"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="20"
+                android:textColor="@color/gray_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_10" >
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Capture_competitor"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_extra_large"
+                    android:textStyle="bold" />
+
+                <!-- <LinearLayout -->
+                <!-- android:id="@+id/llSubmitNew" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginLeft="@dimen/margin_10" -->
+                <!-- android:background="@drawable/btn_submit" -->
+                <!-- android:gravity="center_vertical" -->
+                <!-- android:padding="@dimen/margin_10" > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:background="@drawable/tick" -->
+                <!-- android:clickable="false" /> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:orientation="vertical" -->
+                <!-- android:paddingLeft="@dimen/margin_10" -->
+                <!-- android:paddingRight="@dimen/margin_10" > -->
+
+                <Button
+                    android:id="@+id/btnSubmitNew"
+                    style="@style/Btn_Green_wrap"
+                    android:text="@string/Submit"
+                    android:textStyle="bold" />
+                <!-- </LinearLayout> -->
+                <!-- </LinearLayout> -->
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dotted_divideline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_25"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/brands"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingTop="@dimen/size5"
+                android:singleLine="true"
+                android:text="@string/ourbrands"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size20"
+                android:layout_marginRight="@dimen/size20"
+                android:background="@drawable/roundcorner_new"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingRight="@dimen/margin_10"
+                android:paddingTop="@dimen/size10"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_tiny"
+                    android:paddingRight="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:text="Brand Name"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/tvBrandNameOur"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size5"
+                    android:paddingLeft="@dimen/size5"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/brands"
+                android:gravity="center"
+                android:padding="@dimen/margin_5"
+                android:singleLine="true"
+                android:text="@string/competitor_info"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size10"
+                android:layout_marginLeft="@dimen/size20"
+                android:layout_marginRight="@dimen/size20"
+                android:layout_weight="1"
+                android:background="@drawable/roundcorner_new"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingRight="@dimen/margin_10"
+                android:paddingTop="@dimen/size10" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:text="@string/competitor_company_name"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvCompanyName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size5"
+                    android:paddingLeft="@dimen/size5"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/etCompanyName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:hint="Enter Company name"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivCompanyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:text="@string/competitor_brand_name"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/tvBrandNameCompetitor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size5"
+                    android:paddingLeft="@dimen/size5"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/etBrandNameCompetitor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:hint="Enter brand name"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ivBrandNameCompetitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:text="@string/competitor_item_name"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/edtItem_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:text="@string/price_"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/edtPrice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:text="Type of Promotion"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/edtTypeofPromotion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/margin_5"
+                    android:paddingRight="@dimen/margin_5"
+                    android:paddingTop="@dimen/margin_10"
+                    android:singleLine="true"
+                    android:text="@string/notes"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/edtNotes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/size10"
+                    android:background="@null"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="@dimen/size10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/brandname_textfield"
+                    android:contentDescription="@string/app_name" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingBottom="@dimen/margin_10"
+                            android:paddingLeft="@dimen/margin_5"
+                            android:paddingRight="@dimen/margin_5"
+                            android:paddingTop="@dimen/margin_10"
+                            android:singleLine="true"
+                            android:text="Media"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_normal" />
+
+                        <Button
+                            android:id="@+id/btnCaptureMedia"
+                            style="@style/Btn_Green_wrap"
+                            android:text="Capture Media"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <HorizontalScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/captureimage" >
+
+                        <LinearLayout
+                            android:id="@+id/llMedia"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="visible" >
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <FrameLayout
+                        android:id="@+id/flVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/v_big_image_holder"
+                        android:visibility="gone" >
+
+                        <com.winit.alseer.salesman.common.PlayVideoView
+                            android:id="@+id/vVCaptureVedio"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/size25"
+                            android:layout_marginLeft="-35dp"
+                            android:layout_marginRight="-35dp"
+                            android:layout_marginTop="@dimen/size20" />
+
+                        <ImageView
+                            android:id="@+id/btnPlay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/video_icon" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llAudiButtons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/margin_20"
+                            android:background="@drawable/mic" />
+
+                        <TextView
+                            android:id="@+id/tvTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/margin_30"
+                            android:text="00:00:00"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/size35"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="@dimen/margin_30"
+                            android:layout_marginTop="@dimen/margin_30" >
+
+                            <ImageView
+                                android:id="@+id/start"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/rec"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/play"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20"
+                                android:background="@drawable/play_h" />
+
+                            <ImageView
+                                android:id="@+id/stop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20"
+                                android:background="@drawable/stop_h" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

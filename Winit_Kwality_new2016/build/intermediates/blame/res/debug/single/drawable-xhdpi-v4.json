@@ -1,0 +1,606 @@
+[
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bdr.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\bdr.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a8.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a8.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_light.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cashsmallinput.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\cashsmallinput.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_normal_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\return_order.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\return_order.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arr.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\arr.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon5.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\icon5.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pop.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\pop.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kwality_splash.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\kwality_splash.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dot_seperator.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dot_seperator.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\yes.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\yes.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sep_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\sep_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\no.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rec_box.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\rec_box.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pin.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\pin.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\topsaparetor.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\topsaparetor.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon4.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\icon4.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\smallinput.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\smallinput.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_normal_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paymentsummary_item_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\paymentsummary_item_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\stock_invontery.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\stock_invontery.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a7.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a7.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check2_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\check2_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dotted_hline.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dotted_hline.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\save_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\save_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_2.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\arrow_2.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty_photo.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty_photo.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_pattern_diagonal.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\tabs_pattern_diagonal.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pin2.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\pin2.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scan.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\scan.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\address.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\address.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hline.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\hline.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\add.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\print_order.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\print_order.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\survayimage.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\survayimage.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\airwick_newproduct_launch.jpg",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\airwick_newproduct_launch.jpg"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon3.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\icon3.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_bg_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\btn_bg_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logout.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\logout.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arro.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\arro.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check1_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\check1_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\collectpayment.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\collectpayment.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icon.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\list_icon.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\confirm.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\confirm.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\globe.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\globe.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh_list.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\refresh_list.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_blue_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\light_blue_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty_btn_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty_btn_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\order_order.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\order_order.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\detol_launch.jpg",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\detol_launch.jpg"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_focus_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chiller.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\chiller.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cashinput.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\cashinput.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tdb_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\tdb_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bills.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\bills.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dwn_arrow_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dwn_arrow_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\modifyorder_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\modifyorder_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a6.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a6.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icon_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\list_icon_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a9.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\outstandingpayment_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\outstandingpayment_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sep_base.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\sep_base.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_salable.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\btn_salable.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_list.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\arrow_list.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bludividor.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\bludividor.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dwn_arrow.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dwn_arrow.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cashdate.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\cashdate.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\basefooter.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\basefooter.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\completed_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\completed_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\taks_order.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\taks_order.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a11.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a11.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dark_light_bg_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dark_light_bg_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dotted_vline.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dotted_vline.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cashcross.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\cashcross.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radiobtnchecked.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\radiobtnchecked.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seach_bg_white_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\seach_bg_white_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\topnav.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\topnav.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\credit_limit_bd.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\credit_limit_bd.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a12.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a12.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\monthlysales_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\monthlysales_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\outlets.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\outlets.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lite.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\lite.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon1.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\icon1.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_pattern.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\tabs_pattern.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\collection_order.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\collection_order.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scan_bottom.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\scan_bottom.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a4.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a4.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\globe_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\globe_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\btn_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a10.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a10.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\month_divine_h.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\month_divine_h.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a13.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a13.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\calls.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\calls.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\availablelimit_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\availablelimit_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blue_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\blue_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\print_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\print_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_icon_white_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\search_icon_white_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_focus_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_dark.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\discount.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\discount.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\month_divine_v.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\month_divine_v.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\a5.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\a5.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_account.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\add_account.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_nonsalable.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\btn_nonsalable.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon2.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edit_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\edit_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_light_bg_new.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\green_light_bg_new.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\input_line.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\input_line.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scan_icon.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\scan_icon.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dailysummary.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\dailysummary.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_nav_back.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\ic_nav_back.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\effective_coverage.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\effective_coverage.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\creditlimit_bg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\creditlimit_bg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radiobtn.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\radiobtn.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\visible.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\visible.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "D:\\kwality  26-03-2018\\google-play-services_lib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\close_cradit.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\close_cradit.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kwality_logo_big.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\kwality_logo_big.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\youtube_playbutton.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\youtube_playbutton.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\smallbdr.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\smallbdr.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emptyb.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\emptyb.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check2.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\check2.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\month_header.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\month_header.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check5.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\check5.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sidebg.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\sidebg.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty_hv.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty_hv.png"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty_btn.png",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\drawable-xhdpi\\empty_btn.png"
+    }
+]

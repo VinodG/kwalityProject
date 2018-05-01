@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvInvQtyTitle"
+            style="@style/TextHeaderLarge"
+            android:text="Inventory Quantity" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_base" />
+
+            <Button
+                android:id="@+id/btnPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:padding="@dimen/margin_10"
+                android:text=" Print  "
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCode"
+        style="@style/Layout_Top_GreenBar" >
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="@string/itemcode"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvUOM_Title"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/tvTotalQty"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/sapare"
+            android:drawableRight="@drawable/sapare"
+            android:gravity="center"
+            android:text="@string/Total_Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvInventoryItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvResultOfSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No record available."
+        android:textColor="@color/gray_dark"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

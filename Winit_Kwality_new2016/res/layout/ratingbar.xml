@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size10"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/tvOptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Survey Rating 1 to 5"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/rbRating"
+            style="@style/StarRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size10"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1" >
+        </RatingBar>
+    </LinearLayout>
+
+</LinearLayout>

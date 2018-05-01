@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#CCCCCC</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="status_view">#50000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!-- Normal colors -->
+    
+    <color name="listview_divider_new">#a9a9a9</color>
+    <color name="journeyplan_screen_list_left_bg">#f1f7f2</color>
+     
+    <color name="sep_line">#7F7F7F</color>
+    <color name="pop_list">#A16F3E</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="red_normal">#ff000000</color>
+    <color name="red_normal_1">#e48c8c</color>
+    <color name="blue">#005DAB</color>
+    <color name="blue_jp">#00568B</color>
+    <color name="gray">#616161</color>
+    <color name="customer_served">#669900</color>
+    <color name="orange">#f8a607</color>
+    <color name="text_highlighted">#E00024</color> <!-- red -->
+    <color name="green">#87cd73</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_dark">#B38C63</color>
+    <color name="red_dark">#D32809</color>
+    <color name="black">#1b2a30</color>
+    <color name="black_header">#353434</color>
+    <color name="pink">#FF00FF</color>
+    <color name="white">#ffffff</color>
+    <color name="greenText">#245198</color>
+    <color name="greyText">#505050</color>
+    <color name="fragment_Header_bar">#FFCC66</color>
+    <color name="greenLayout">#339e40</color>
+    <color name="gray_light">#808080</color>
+    <color name="gray_dark">#353434</color>
+    <color name="dark_grey">#799DBA</color>
+    <color name="blue_sky">#81A7C1</color>
+    <color name="alserr_line_green">#B38C63</color>
+    <color name="alserr_line_yellow">#ffda17</color>
+    <color name="list_title">#ffda17</color>
+    <color name="green_bar">#B38C63</color>
+    <color name="gray_new">#737373</color>
+    <color name="gray_new_1">#454545</color>
+    <color name="gray_bg">#f2f2f2</color>
+    <color name="info_black">#2e2e2e</color>
+    <color name="yellow_bg">#FFFFDF</color>
+    <color name="dark_menu">#1C1C1C</color>
+    <color name="status_delievered">#669900</color>
+    <color name="alseer_text_color">#0DB334</color>
+    <color name="payment_check_color">#C3E295</color>
+    <color name="text_color_dark">#636363</color>
+    <color name="text_color_normal">#808080</color>
+    <color name="customer_list_item_time_color">#339e40</color>
+    <color name="status_pending">#ff0000</color>
+    <color name="status_unknown">#3300ff</color>
+    <color name="header_bg_color">#F4F4F4</color>
+    <color name="yellow_bg_dark">#FFCC66</color>
+    <!-- Kwality Colors -->
+    <color name="kwality_blue">#26407B</color>
+    <color name="kwality_black">#2F2F2F</color>
+    <color name="kwality_dark_grey">#747474</color>
+	<color name="printer_title">#005bbe</color>
+	<color name="over_due_color">#FF8E4905</color>
+</resources>

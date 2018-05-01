@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A16F3E"
+        android:orientation="horizontal"
+        android:padding="@dimen/size5" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="Currency"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_extra_large" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="Notes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_extra_large" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:text="Amount"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_extra_large" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="1000"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits1000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits1000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="500"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits500"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits500"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="200"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits200"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits200"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="100"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits100"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits100"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="50"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="20"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="10"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:src="@drawable/cashcross"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evUnits5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnits5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="Coins"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <EditText
+                    android:id="@+id/evUnitsCoin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLength="6"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <TextView
+                    android:id="@+id/tvUnitsCoin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="Other Currencies"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <EditText
+                    android:id="@+id/edtOtherCurrQty"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <EditText
+                    android:id="@+id/edtOtherCurrency"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_weight="1"
+                    android:background="@drawable/cashinput"
+                    android:gravity="center"
+                    android:hint=""
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fffee6"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/size10" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:text="Total Cash"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint=""
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:id="@+id/tvTotalCash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="Vouchers"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evVoucher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <EditText
+                    android:id="@+id/edtVoucher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_weight="1"
+                    android:background="@drawable/cashinput"
+                    android:gravity="center"
+                    android:hint=""
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_weight=".7"
+                    android:text="Cash paid\nCr.Note"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <com.winit.alseer.salesman.common.CustomEditText
+                    android:id="@+id/evcashPaidCrNote"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:layout_marginRight="@dimen/margin_2"
+                    android:layout_weight=".5"
+                    android:background="@drawable/cashsmallinput"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionNext"
+                    android:inputType="@null"
+                    android:maxLength="5"
+                    android:paddingBottom="@dimen/size8"
+                    android:paddingTop="@dimen/margin_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size5"
+                    android:background="#D0D7E5" />
+
+                <EditText
+                    android:id="@+id/edtCashPaidCredit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_weight="1"
+                    android:background="@drawable/cashinput"
+                    android:gravity="center"
+                    android:hint=""
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#D0D7E5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dbf1d1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/size10" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:text="Grand Total"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint=""
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:id="@+id/tvGrandTotal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

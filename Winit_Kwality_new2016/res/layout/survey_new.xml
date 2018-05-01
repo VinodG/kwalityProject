@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:text="Survey Details"
+            style="@style/TextHeaderGray" />
+
+        
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotted_divideline" />
+
+    <include layout="@layout/search_bar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/lvTasks"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:scrollbars="none"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvEmpty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textSize="@dimen/text_size_extra_large"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

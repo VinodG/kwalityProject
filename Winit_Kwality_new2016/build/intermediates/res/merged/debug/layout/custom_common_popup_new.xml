@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bgmain"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitlePopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dip"
+            android:drawableLeft="@drawable/alert"
+            android:drawablePadding="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Alert!"
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="38dip"
+            android:layout_marginRight="38dip"
+            android:background="@drawable/divideline1" />
+
+        <TextView
+            android:id="@+id/tvMessagePopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Do you want to check out? "
+            android:textColor="@color/gray_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvMessagePopup1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/gray_light"
+            android:textSize="15dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dip"
+            android:layout_marginTop="15dip"
+            android:gravity="center|bottom" >
+
+            <Button
+                android:id="@+id/btnYesPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/okbtn"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="@string/OK"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNoPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/skipbtn"
+                android:text="@string/cancel"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

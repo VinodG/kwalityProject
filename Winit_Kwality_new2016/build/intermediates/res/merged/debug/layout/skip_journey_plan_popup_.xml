@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dip"
+    android:layout_marginLeft="90dip"
+    android:layout_marginRight="90dip"
+    android:layout_marginTop="20dip"
+    android:background="@drawable/round_transparent_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/margin_10"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/alert" />
+
+        <TextView
+            android:id="@+id/tvHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="@string/warning"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linesep" />
+
+    <TextView
+        android:id="@+id/tvMessages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center"
+        android:text="Do you want to skip following customers ?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <TextView
+            android:id="@+id/tvCustomerList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Customers"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnYesPopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/okbtn"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/Yes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNoPopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/skipbtn"
+            android:text="@string/No"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/size50" >
+
+    <LinearLayout
+        android:id="@+id/llView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcornerpopupdisp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dip" >
+
+        <LinearLayout
+            android:id="@+id/tv_itemselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             >
+
+            <TextView
+                android:id="@+id/tvTitleBuider"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"                
+                android:text="1111111xvvxcvcx"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/greyText"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <include layout="@layout/divider_normal"/>
+        <include layout="@layout/search_bar_dark_full"/>
+       
+        <ListView
+            android:id="@+id/lvSelectCountry"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:cacheColorHint="@null"
+            android:visibility="visible"
+            android:scrollbars="none" 
+            android:divider="@color/white"
+            android:paddingBottom="20dp">
+        </ListView>        
+
+        <TextView
+            android:id="@+id/tvNoSearchFound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/No_matching_record_found"
+            android:textColor="@color/gray_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

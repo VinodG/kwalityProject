@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:padding="@dimen/size10" >
+
+        <Button
+            android:id="@+id/btnAddItems"
+            style="@style/Btn_Green_wrap"
+            android:layout_marginRight="@dimen/margin_10"
+            android:drawableLeft="@drawable/add"
+            android:text="Add Items"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llBottomButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right" >
+
+            <Button
+                android:id="@+id/btnSort"
+                style="@style/Btn_Green_wrap"
+                android:layout_margin="@dimen/size10"
+                android:drawableLeft="@drawable/cont"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnTasksList"
+                style="@style/Btn_Green_wrap"
+                android:layout_margin="@dimen/margin_10"
+                android:drawableLeft="@drawable/icon4"
+                android:text="Tasks List"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                style="@style/Btn_Green_wrap"
+                android:layout_marginRight="@dimen/margin_10"
+                android:drawableLeft="@drawable/check5"
+                android:text="Submit"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/Btn_Green_wrap"
+                android:layout_marginRight="@dimen/margin_10"
+                android:drawableLeft="@drawable/icon3"
+                android:text="Skip"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnAddIetem"
+                style="@style/Btn_Green_wrap"
+                android:layout_marginRight="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:text="@string/AddItem"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <ScrollView
+        android:id="@+id/svForCaptureInventoryItemd"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/recommendedorderheader" />
+
+            <LinearLayout
+                android:id="@+id/llLayoutMiddle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTopSellingItems"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

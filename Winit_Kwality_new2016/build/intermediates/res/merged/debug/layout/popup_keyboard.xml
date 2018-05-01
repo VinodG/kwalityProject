@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/keyboard_bg"
+    android:gravity="center"
+    android:paddingTop="15dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/key_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/keyOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_one"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/key_margin"
+            android:layout_marginRight="@dimen/key_margin"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_three"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/key_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/keyFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_four"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/key_margin"
+            android:layout_marginRight="@dimen/key_margin"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_five"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keySix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_six"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/key_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/keySeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_seven"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/key_margin"
+            android:layout_marginRight="@dimen/key_margin"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_eight"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_nine"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/key_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/keyClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/clear"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keyDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/key_margin"
+            android:layout_marginRight="@dimen/key_margin"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/keyZero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/key_margin"
+            android:layout_marginRight="@dimen/key_margin"
+            android:background="@drawable/keyboard_btn_click"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:text="@string/num_zero"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/keyBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/keyboard_btn_click"
+            android:padding="8dp"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:onClick="keyListener"
+            android:src="@drawable/keypad_cross"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_1"
+            android:layout_weight="1"
+            android:background="@drawable/done"
+            android:gravity="center"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_1"
+            android:layout_weight="1"
+            android:background="@drawable/next"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

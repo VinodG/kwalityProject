@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvPageTitle"
+            style="@style/TextHeaderGray"
+            android:text="Free Delivery" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llBottomButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right" >
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/icon5"
+                    android:text="@string/Submit" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/icon3" />
+
+                <Button
+                    android:id="@+id/btnReturnRequestPayment"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/confirm"
+                    android:text="@string/Payment_Confirm"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llReturnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnAddItems"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/add"
+                    android:text="Add Items " />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/icon3"
+                    android:text="Cancel"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnFinalize"
+                    style="@style/Btn_Green"
+                    android:drawableLeft="@drawable/icon5"
+                    android:text="Finalize" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/saparetor" />
+
+    <ScrollView
+        android:id="@+id/svScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include layout="@layout/free_delivery_item_header" />
+
+            <LinearLayout
+                android:id="@+id/llLayoutMiddle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llTotalValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btnAddIetem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="2dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_verify_click"
+            android:text="@string/AddItem"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/saparetor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvDisHeader"
+                android:layout_width="105dip"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/Discount_in_percentage"
+                android:textColor="@color/gray_dark"
+                android:textSize="16dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/etDiscValue"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/gray_light"
+                android:textSize="16dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvHeaderText"
+                android:layout_width="110dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:singleLine="true"
+                android:text="@string/Total_value"
+                android:textColor="@color/gray_dark"
+                android:textSize="15dip" />
+
+            <TextView
+                android:id="@+id/evTotalValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:inputType="number"
+                android:padding="1dip"
+                android:singleLine="true"
+                android:textColor="@color/gray_light"
+                android:textSize="15dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

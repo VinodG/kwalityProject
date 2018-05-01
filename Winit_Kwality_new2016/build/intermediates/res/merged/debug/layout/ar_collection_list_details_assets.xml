@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/size5"
+            android:gravity="center"
+            android:paddingLeft="@dimen/size10"
+            android:paddingRight="@dimen/size10"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/size10"
+            android:paddingTop="@dimen/size10" >
+
+            <TextView
+                android:layout_width="@dimen/size180"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/site_id"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvSiteID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="M54896 "
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_new" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/size10"
+            android:paddingTop="@dimen/size10" >
+
+            <ImageView
+                android:id="@+id/ivCustomerPaymentType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cash_bg"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvSiteName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:text="5 SPICE RESTAURANT ALT"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:text="Jabel Ali Dip,MXB"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_normal" />
+
+            <LinearLayout
+                android:id="@+id/llCredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="@dimen/size180"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="OutStanding Amount"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:layout_width="@dimen/size5"
+                    android:layout_height="wrap_content"
+                    android:text="@string/colon"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tvCreditLimit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="AED 2569"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray_new"
+        android:visibility="visible" />
+
+</LinearLayout>

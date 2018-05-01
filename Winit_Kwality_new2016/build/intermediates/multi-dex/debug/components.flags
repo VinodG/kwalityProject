@@ -1,0 +1,37 @@
+-injars 'D:\kwality  26-03-2018\Winit_Kwality_new2016\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\kwality  26-03-2018\Winit_Kwality_new2016\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\adt-bundle-windows-x86_64-20140702\sdk\build-tools\25.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\kwality  26-03-2018\Winit_Kwality_new2016\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

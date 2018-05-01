@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llCellClick"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size60"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_10" >
+
+            <TextView
+                android:id="@+id/tvProductKey"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVendorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="asdaf"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_normal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvExpiryDateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Expiry : "
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/text_size_small"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvExpiryDate"
+                    android:layout_width="@dimen/size50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="asdafs"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_small"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvItemBatchCodeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Batch No "
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/text_size_small"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvItemBatchCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="asdafs"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_small"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <com.winit.alseer.salesman.common.CustomEditText
+            android:id="@+id/etQtyInCS"
+            android:layout_width="@dimen/size50"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@null"
+            android:drawableBottom="@drawable/edt_input"
+            android:drawablePadding="-14dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="0"
+            android:imeOptions="actionNext"
+            android:inputType="@null"
+            android:maxLength="5"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/size2"
+            android:paddingRight="@dimen/size2"
+            android:paddingTop="@dimen/margin_10"
+            android:singleLine="true"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <ImageView
+            android:id="@+id/ivAcceptCheckItems"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_weight="0"
+            android:src="@drawable/uncheckbox" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<chart
+    YAxisName="Sales Achieved"
+    animation="1"
+    formatNumberScale="0"
+    numberPrefix="$"
+    palette="2"
+    showLabels="1"
+    showLegend="0"
+    showPercentInToolTip="0"
+    showValues="1" >
+
+    <set
+        isSliced="0"
+        label="Unvisited Store"
+        value="91.0" />
+
+    <set
+        isSliced="0"
+        label="Visited Store"
+        value="8.0" />
+
+    <styles>
+
+        <definition>
+
+            <style
+                name="CaptionFont"
+                size="15"
+                type="font"
+                color="666666" />
+
+            <style
+                name="SubCaptionFont"
+                bold="0"
+                type="font" />
+        </definition>
+
+        <application>
+
+            <apply
+                styles="CaptionFont"
+                toObject="caption" />
+
+            <apply
+                styles="SubCaptionFont"
+                toObject="SubCaption" />
+        </application>
+    </styles>
+
+</chart>

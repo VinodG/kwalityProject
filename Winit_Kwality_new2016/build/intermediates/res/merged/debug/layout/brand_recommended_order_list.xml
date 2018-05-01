@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llCode"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size30"
+        android:background="@color/fragment_Header_bar"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="@string/itemcode"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small" >
+        </TextView>
+
+        <!-- <ImageView style="@style/Divider_TopBar" /> -->
+
+        <TextView
+            android:id="@+id/tvCases"
+            android:layout_width="@dimen/size40"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_marginRight="@dimen/margin_2"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivVanQtyDivider"
+            style="@style/Divider_TopBar" />
+
+        <TextView
+            android:id="@+id/tvVanQty"
+            android:layout_width="@dimen/size45"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_marginRight="@dimen/margin_2"
+            android:gravity="center"
+            android:text="Van\nQty"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small" />
+
+        <ImageView
+            android:id="@+id/ivUnitsDivider"
+            style="@style/Divider_TopBar" />
+
+        <TextView
+            android:id="@+id/tvUnits"
+            android:layout_width="@dimen/size45"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_marginRight="@dimen/margin_2"
+            android:gravity="center"
+            android:text="Order\nQTY"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small" />
+
+        <ImageView
+            android:id="@+id/ivMissedDivider"
+            style="@style/Divider_TopBar"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvMissedQty"
+            android:layout_width="@dimen/size45"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_marginRight="@dimen/margin_2"
+            android:gravity="center"
+            android:text="Missed\nQty"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+    <!-- <include -->
+    <!-- layout="@layout/brand_recommended_order_list_item_cell"/> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/expandableList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:childDivider="@color/transparent"
+            android:childIndicator="@null"
+            android:fadingEdge="none"
+            android:groupIndicator="@null" />
+
+        <TextView
+            android:id="@+id/tvNoSearchResult"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/No_item_found"
+            android:textSize="@dimen/text_size_extra_large_30"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

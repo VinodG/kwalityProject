@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvInventryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:orientation="vertical"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_weight="0"
+                android:text="asaafa"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size10"
+            android:src="@drawable/next_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCode"
+        style="@style/Layout_Top_GreenBar"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="@string/itemcode"
+            android:textColor="@color/white" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvCases"
+            android:layout_width="@dimen/size70"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Cases"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size12" />
+
+        <TextView
+            android:id="@+id/tvUnits"
+            android:layout_width="@dimen/size71"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Units"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

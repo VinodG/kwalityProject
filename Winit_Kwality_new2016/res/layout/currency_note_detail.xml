@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#807B7B7B"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_popupbgbox"
+        android:orientation="vertical"
+        android:padding="30dip" >
+
+        <TextView
+            android:id="@+id/tvCurrencyNoteDetailHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:text="Capture Currency Note Details"
+            android:textColor="#636363"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:background="#ABDAA3" />
+
+        <ImageView
+            android:id="@+id/ivCurrencyNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10" />
+
+        <GridView
+            android:id="@+id/gvCurrencyNotes"
+            android:layout_width="match_parent"
+            android:layout_height="25dip"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:numColumns="2" >
+        </GridView>
+
+        <ImageView
+            android:id="@+id/ivCurrencyAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dip"
+            android:src="@drawable/addbtn" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/greenText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="2dip"
+            android:background="#FFDA17" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="5dip"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvCancel"
+                style="@style/Btn_Popup_Yellow"
+                android:layout_margin="8dip"
+                android:text="Cancel"
+                android:textColor="#69696B" />
+
+            <TextView
+                android:id="@+id/tvSave"
+                style="@style/Btn_Popup_Green"
+                android:layout_margin="8dip"
+                android:background="@drawable/save"
+                android:text="Save"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

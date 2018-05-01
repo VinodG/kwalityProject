@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_5"
+        android:gravity="center_vertical|right" >
+
+        <Button
+            android:id="@+id/btnAssetscanSubmit"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/add"
+            android:text="Add Item" />
+
+        <Button
+            android:id="@+id/btnAssetscanCancel"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/icon3"
+            android:text="Cancel" />
+    </LinearLayout>
+<include layout="@layout/divider_dotted" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivScanCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dip"
+                android:src="@drawable/scan1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip" >
+
+                <TextView
+                    android:id="@+id/tvTypeBold"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Item Code :"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Freezer"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="5dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvQuantityTitle"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity :"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etQuantity"
+                    android:layout_width="50dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/unit_bg"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

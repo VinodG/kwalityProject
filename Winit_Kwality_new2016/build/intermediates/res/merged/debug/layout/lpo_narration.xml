@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/round_gray_bg"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/tvSing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:text="Shipping staff M-Signature"
+            android:textColor="#03515E"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/saparetor_pop"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvLogisticsSignature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="LPO No."
+                    android:textColor="@color/gray_new"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSKCear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/clear_btn"
+                    android:gravity="center"
+                    android:text="CLEAR"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtLPO"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size70"
+                android:background="@drawable/background"
+                android:padding="2dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="@dimen/margin_20"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvSalesmanSignature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Narration"
+                    android:textColor="@color/gray_new"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnDriverCear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/clear_btn"
+                    android:gravity="center"
+                    android:text="CLEAR"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtNarration"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size70"
+                android:background="@drawable/background"
+                android:padding="2dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_20"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnCancle"
+                android:layout_width="@dimen/size100"
+                android:layout_height="@dimen/size40"
+                android:layout_marginRight="@dimen/margin_10"
+                android:background="@drawable/btn_yellow"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnOK"
+                android:layout_width="@dimen/size100"
+                android:layout_height="@dimen/size40"
+                android:background="@drawable/btn_green"
+                android:gravity="center"
+                android:text="SUBMIT"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

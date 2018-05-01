@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_newproduct2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cinnabon And Air Wick Launch Cinnamon Roll Air Fresheners"
+            android:textColor="@color/greenText"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dip"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/airwick_newproduct_launch" />
+
+        <TextView
+            android:id="@+id/tv_surf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="SURF SNAPFISH VOUCHER PROMOTION"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_surfdes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dip"
+            android:text="Cinnabon has partnered with RB’s Air Wick brand to introduce the Cinnabon Classic Cinnamon Roll fragrance that will be available at leading grocery and retail stores in the U.S. and Canada this year. Air Wick Cinnabon Classic Cinnamon Roll fragrance retails for $4.99 and is available for Scented Oil refills and Freshmatic Ultra Automatic Spray refills."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tv_surfdes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Ingredients :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_surfdes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dip"
+            android:text="From our bakeries to retail shelves, there are so many ways to enjoy the flavors and aroma that the Cinnabon brand is famous for,” said Cinnabon President Kat Cole. “We are thrilled to partner with Air Wick to deliver an innovative platform of products that capture the aromatic essence of our fresh baked cinnamon rolls."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tv_terms" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="10dp" -->
+        <!-- android:layout_marginLeft="5dp" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:text="@string/terms_conditions" -->
+        <!-- android:textColor="@color/black" -->
+        <!-- android:textSize="18sp" -->
+        <!-- android:visibility="gone" -->
+        <!-- android:textStyle="bold" /> -->
+
+        <TextView
+            android:id="@+id/tv_terms1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="McCain now supplies to top restaurants chains than any other company in the world. McCain have built their reputation on providing the highest quality possible."
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="0dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="1" -->
+<!--         android:orientation="horizontal" > -->
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:padding="@dimen/margin_5" >
+
+            <LinearLayout
+                android:layout_width="@dimen/size70"
+                android:layout_height="@dimen/size50"
+                android:background="@drawable/list_image_bg" >
+
+                <ImageView
+                    android:id="@+id/ivCompetitorImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/size1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/size2"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvBrand"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_5"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_normal" />
+
+        <View
+            android:layout_width="@dimen/size1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/size2"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvCompany"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:padding="@dimen/margin_5"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <View
+            android:layout_width="@dimen/size1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/size2"
+            android:background="@drawable/saparetor" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:padding="@dimen/margin_5"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+<!--     </LinearLayout> -->
+
+</LinearLayout>

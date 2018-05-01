@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/size5" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivBrandImage"
+            android:layout_width="@dimen/size20"
+            android:layout_height="@dimen/size20"
+            android:layout_marginLeft="@dimen/size7"
+            android:background="@drawable/initiative_executed"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/size7"
+            android:text="Executed Planogram"
+            android:textColor="@color/gray_dark"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/llImage"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_margin="@dimen/size7"
+            android:background="@drawable/initiative_imagecell_bg" >
+
+            <ImageView
+                android:id="@+id/ivInitiativeImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/size5"
+                android:layout_weight="1"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRecommendedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/llImage"
+            android:layout_alignBottom="@+id/llImage"
+            android:background="@drawable/recomonded"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size10"
+            android:paddingTop="@dimen/size10"
+            android:text="Recommended Planogram"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llExecuted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size10"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nov 4, 2014 10:00 PM"
+            android:textColor="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/tvView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/View"
+            android:textColor="@color/greenText"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

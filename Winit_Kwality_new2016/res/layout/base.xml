@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+
+    <!-- Dash Board Right Layout -->
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/basetitle_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/size2"
+                android:background="@drawable/btn_menu_click" />
+
+            <ImageView
+                android:id="@+id/btnLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size5"
+                android:background="@drawable/toplogo2"
+                android:contentDescription="@string/app_name" />
+           
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size2"
+            android:background="@drawable/btn_back_click"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnCartCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dip"
+                android:layout_marginTop="14dip"
+                android:layout_toLeftOf="@+id/llInfo"
+                android:background="@drawable/cart_count_background"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivShoppingCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="28dip"
+                android:layout_marginTop="26dip"
+                android:layout_toLeftOf="@+id/llInfo"
+                android:scaleType="fitXY"
+                android:src="@drawable/shopping_cart"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivDivider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/llInfo"
+                android:src="@drawable/vertical_divideline"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/llInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size10"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:text="Azaz Haqiq Usmani"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:id="@+id/tvUserType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="@dimen/size10"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:drawableLeft="@drawable/vehicle"
+                    android:drawablePadding="@dimen/margin_5"
+                    android:text="SALESMAN"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_large"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/size5"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="@dimen/size5"
+            android:background="@drawable/topsaparetor"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/size2"
+            android:background="@drawable/logout"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnLoginLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_logout_click"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSecurityHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvSecurityHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size20"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnChkOutVan"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size35"
+            android:layout_weight="1"
+            android:text="Check-Out Of Van"
+            android:textColor="@color/gray_dark"
+            android:textSize="16dip"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnChkInVan"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size35"
+            android:layout_weight="1"
+            android:text="Check-In Of Van"
+            android:textColor="@color/gray_dark"
+            android:textSize="16dip"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/flMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/llBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slide menu Layout Start -->
+
+        <FrameLayout
+            android:id="@+id/flMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" >
+
+            <!-- Dash Board Left Layout -->
+
+            <LinearLayout
+                android:id="@+id/llDashBoard"
+                android:layout_width="@dimen/size240"
+                android:layout_height="match_parent"
+                android:background="@drawable/sidebg"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <ExpandableListView
+                    android:id="@+id/lvDashBoard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="@null"
+                    android:divider="@drawable/dot_seperator"
+                    android:dividerHeight="@dimen/size1"
+                    android:fadingEdge="none"
+                    android:scrollbars="none" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slide menu Layout End -->
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

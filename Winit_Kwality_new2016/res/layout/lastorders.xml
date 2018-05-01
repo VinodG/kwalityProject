@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvlastordergheadTitle"
+            style="@style/TextHeaderGray"
+            android:text="Last 5 Orders"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted" />
+
+    <TextView
+        android:id="@+id/tv_lastordersitename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="5 Spice Restaurant"
+        android:textColor="@color/greenText"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nolastorders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Last Orders not available!"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_lastorders"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

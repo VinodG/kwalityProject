@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundcornerpopup"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTaskHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size10"
+        android:text="@string/Tasks"
+        android:textColor="@color/greenText"
+        android:textSize="@dimen/text_size_extra_extra_extra_large" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_seperator" />
+
+    <LinearLayout
+        android:id="@+id/llCaptureCompetitors"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size10"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:background="@drawable/capture"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10"
+            android:layout_weight="1"
+            android:text="@string/capturecomactivites"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size10"
+            android:background="@drawable/task_popup_arrow"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size10"
+        android:background="@drawable/dot_seperator"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/llInitiatives"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size20"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:background="@drawable/inr"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10"
+                android:layout_weight="1"
+                android:text="@string/initiativesexecution"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:id="@+id/tvInitiativeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size15"
+                android:background="@drawable/num_bx"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size10"
+                android:background="@drawable/task_popup_arrow"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size20"
+            android:background="@drawable/dot_seperator" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSurveyExecution"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size20"
+        android:layout_marginTop="@dimen/size20"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:background="@drawable/survet"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10"
+            android:layout_weight="1"
+            android:text="@string/Surveyexecution"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <TextView
+            android:id="@+id/tvSurveyExecutionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size15"
+            android:background="@drawable/num_bx"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size10"
+            android:background="@drawable/task_popup_arrow"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+</LinearLayout>

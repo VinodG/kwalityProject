@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llHeader"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/topbgbg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvPageTitle"
+        style="@style/TextHeaderLarge"
+        android:layout_width="fill_parent"
+        android:text="Order Summary" />
+
+    <ImageView
+        android:id="@+id/ivDivHeaderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@drawable/sep_new"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btn"
+        style="@style/Btn_header"
+        android:text="SUBMIT"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivDivHeaderPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background="@drawable/sep_new"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnPrint"
+        style="@style/Btn_header"
+        android:drawableLeft="@drawable/print_conf_white"
+        android:text="Print"
+        android:visibility="gone" />
+
+</LinearLayout>

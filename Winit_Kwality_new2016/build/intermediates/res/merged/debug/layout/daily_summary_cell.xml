@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvSrlNo"
+            android:layout_width="@dimen/size30"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:padding="@dimen/size5"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvDocNo"
+            android:layout_width="@dimen/size90"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Doc No."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvCustmCode"
+            android:layout_width="@dimen/size50"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvCustmName"
+            android:layout_width="@dimen/size90"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Customer Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="@dimen/size50"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:text="Trx Type"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="@dimen/size50"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_very_small" />
+    </LinearLayout>
+
+</LinearLayout>

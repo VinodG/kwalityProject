@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn"
+        android:padding="0dip" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            style="@style/TextHeaderGray"
+            android:text="Load View Request" />
+
+        <LinearLayout
+            android:id="@+id/llAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="3dip"
+            android:paddingTop="10dip" >
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_request"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/margin_8"
+                android:text="New Request"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingLeft="3dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip" >
+
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/finish"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/margin_20"
+                android:text="Finish"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbg"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvItemList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTotalValue"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvTotalQty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="14dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="Code"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Date"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="75dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/arrow"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_seperator" />
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="No request found."
+        android:textColor="@color/gray_light"
+        android:textSize="20dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvLoadRequest"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="@dimen/margin_5"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/llOrderSheetTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llBottomBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/basefooter"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/sep_base" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/check5"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text=" Finish  "
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/add"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text=" Add Request  "
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

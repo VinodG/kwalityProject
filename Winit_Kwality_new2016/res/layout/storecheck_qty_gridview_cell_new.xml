@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dip" >
+
+    <RelativeLayout
+        android:id="@+id/llStoreCheckgrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/green" >
+
+        <TextView
+            android:id="@+id/tvGridCellheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:paddingLeft="5dip"
+            android:text="Text"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvGridCellDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGridCellheader"
+            android:layout_marginLeft="5dip"
+            android:maxLines="2"
+            android:minLines="2"
+            android:paddingLeft="5dip"
+            android:text="Text Detail"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@drawable/grypat"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/size2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size5"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/size1" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="UOM: "
+                android:textColor="#4E4D49"
+                android:textSize="@dimen/text_size_small" />
+
+            <LinearLayout
+                android:id="@+id/llUOM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvUOM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PCS"
+                    android:textColor="#4E4D49"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/size_10"
+                    android:src="@drawable/dropdwn" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size3"
+            android:layout_marginRight="@dimen/size5"
+            android:layout_weight=".9"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="QTY: "
+                android:textColor="#4E4D49"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.winit.alseer.salesman.common.CustomEditText
+                android:id="@+id/tvPcsQTY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableBottom="@drawable/text"
+                android:drawablePadding="@dimen/size_5"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="5"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:singleLine="true"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

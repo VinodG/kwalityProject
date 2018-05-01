@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        style="@style/TextHeaderGray"
+        android:layout_width="fill_parent"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_weight="0"
+        android:text="About Application" />
+
+    <include layout="@layout/divider_dotted" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/kwality_logo_big" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/size5" >
+
+            <TextView
+                android:layout_width="@dimen/size150"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginTop="@dimen/size5"
+                android:text="Release Date"
+                android:textColor="@color/black_header"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size5"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size15"
+                android:layout_marginTop="@dimen/size5"
+                android:text="@string/date_of_release"
+                android:textColor="#707070"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/size5" >
+
+            <TextView
+                android:layout_width="@dimen/size150"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginTop="@dimen/size5"
+                android:text="Version no"
+                android:textColor="@color/black_header"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size5"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size15"
+                android:layout_marginTop="@dimen/size5"
+                android:text="KWALITYSFA 4.0"
+                android:textColor="#707070"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

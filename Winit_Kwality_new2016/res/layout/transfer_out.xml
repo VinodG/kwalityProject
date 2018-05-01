@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical|left" >
+
+        <TextView
+            android:id="@+id/tvInvQtyTitle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="Transfer Out"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_large" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left" >
+
+            <ImageView
+                android:id="@+id/ivSapPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/print"
+                android:text="  Print  "
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/icon4"
+                android:text="Transfer  "
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/icon3"
+                android:text="Finish  "
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/tvEmpNo"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="Employee No. :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etEmpNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/edt_input"
+            android:hint="10"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCode"
+        style="@style/Layout_Top_GreenBar" >
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="@string/itemcode"
+            android:textColor="@color/white"
+            android:textSize="13dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvUOM_Title"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/tvAvailQty"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="@string/Avail_Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/llInventoryItems"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/lvInventoryItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvResultOfSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No record found"
+        android:textColor="@color/gray_dark"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

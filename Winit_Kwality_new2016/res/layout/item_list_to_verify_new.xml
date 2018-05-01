@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+        style="@style/Layout_Top_withBtn" >
+    <TextView
+        android:id="@+id/tvContactDetailHeader"
+        style="@style/TextHeaderGray"
+        android:text="Verify Item" />
+
+    <LinearLayout
+        android:id="@+id/llOrderSheetTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llBottomBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnOrdersheetReport"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/icon4"
+                android:text="Report"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnScan"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/scan"
+                android:text="Scan"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/add"
+                android:text="Add"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnPrint"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/print"
+                android:text="Print"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnContinue"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/cont"
+                android:text="Continue"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnFinish"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/cont"
+                android:text="Finish"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnOrdersheetVerify"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/check5"
+                android:text="Verify" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/llUnloadStock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topbgbg"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="18dip" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topbg"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvItemList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:textColor="@color/white"
+                android:textSize="17dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llItemHeader"
+            style="@style/Layout_Top_GreenBar" >
+
+            <TextView
+                android:id="@+id/tvItemCode"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".9"
+                android:text="@string/Item_Code_Description" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvCases"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="70dip"
+                android:gravity="center"
+                android:text="@string/check_in_demand" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvUnits"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Gate_Pass_QTY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <ImageView
+                android:id="@+id/ivCheckAllItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="0"
+                android:src="@drawable/check_normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNoItemFound"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/No_matching_record_found"
+            android:textColor="@color/gray_light"
+            android:textSize="20dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/llordersheet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llReturnInventory"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeaderReturn"
+            style="@style/TextHeaderLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/topbgbg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topbg"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvItemListReturn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:textColor="@color/white"
+                android:textSize="17dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llItemHeaderReturn"
+            style="@style/Layout_Top_GreenBar" >
+
+            <TextView
+                android:id="@+id/tvItemCodeReturn"
+                style="@style/TextHeaderGreenBG"
+                android:layout_weight=".9"
+                android:text="@string/Item_Code_Description" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvCasesReturn"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="50dip"
+                android:gravity="center"
+                android:text="UOM" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <TextView
+                android:id="@+id/tvUnitsReturn"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="70dip"
+                android:gravity="center"
+                android:text="Total Qty" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new" />
+
+            <ImageView
+                android:id="@+id/ivCheckAllItemsReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="0"
+                android:src="@drawable/check_normal" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvInventoryItems"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

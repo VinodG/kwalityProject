@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size40"
+        android:background="@drawable/topbgbg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size" />
+
+        <TextView
+            android:id="@+id/tvDateOfJourney"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size10"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size17"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDateSelector"
+        style="@style/Layout_Top_GreenBar"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvDeliveryStatusDate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size17" />
+
+        <Button
+            android:id="@+id/btnCalDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal_btn_click" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size10"
+            android:singleLine="true"
+            android:text="@string/Item_Code_Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCases"
+            android:layout_width="@dimen/size70"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUnits"
+            android:layout_width="@dimen/size71"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/sapare"
+            android:gravity="center"
+            android:paddingRight="@dimen/size7"
+            android:text="Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size14"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPaymentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size5"
+        android:background="@drawable/subhaederbg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvInvoiceNum"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size10"
+            android:singleLine="true"
+            android:text="Invoice Number"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size13" />
+
+        <TextView
+            android:id="@+id/tvBalanceAmount"
+            android:layout_width="@dimen/size70"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/seperator"
+            android:gravity="center"
+            android:text="@string/balanceNumber"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size13" />
+
+        <TextView
+            android:id="@+id/tvPaidAmount"
+            android:layout_width="@dimen/size71"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/seperator"
+            android:gravity="center"
+            android:paddingRight="@dimen/size7"
+            android:text="@string/paidAmount"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size13" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDeliveryDateValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_bar"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/size10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size17"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llCreditLimitLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size10"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvCustomerCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/size16" />
+
+        <TextView
+            android:id="@+id/tvCustomerCreditAvail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/size16" />
+
+        <TextView
+            android:id="@+id/tvCustomerOutStandingBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/size16"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvPaymentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/size16" />
+
+        <TextView
+            android:id="@+id/tvPaymentTermDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/size16" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/size5"
+            android:layout_marginTop="@dimen/size5"
+            android:background="@drawable/saparetor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoOrderFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/size10"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/size20"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llLayoutMiddle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size60"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMonthForfarmance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size5"
+        android:layout_marginRight="@dimen/size5"
+        android:layout_marginTop="@dimen/size5"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/size3"
+        android:paddingTop="@dimen/size3"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvMonthPerformance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_weight="1"
+                android:text="Month Performance"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+            <LinearLayout
+                android:id="@+id/llMfdToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginRight="@dimen/size10"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/ivMtd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mtd_unselect" />
+
+                <ImageView
+                    android:id="@+id/ivToday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/today_select" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewDividerOne"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size2"
+            android:layout_marginBottom="@dimen/size10"
+            android:layout_marginTop="@dimen/margin_7"
+            android:background="@drawable/divider_horizontal"
+            android:visibility="visible" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/llPagerTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/size5"
+            android:background="@drawable/pager_slige_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRoutePerformance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_5"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tvRoutePerformance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hi : User"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_very_large" />
+
+        <!-- <View -->
+        <!-- android:id="@+id/viewDividerTwo" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="2dp" -->
+        <!-- android:layout_marginTop="@dimen/margin_15" -->
+        <!-- android:background="@drawable/divider_horizontal" /> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/rounded_bg_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/size10"
+            android:paddingRight="@dimen/size10" >
+
+            <TextView
+                android:id="@+id/tvFrequncyHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Welcome \nHave a Great Day"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddNewOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="right"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/take_new_order"
+            android:drawableRight="@drawable/sep_base"
+            android:text="Modify    "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnAddNewOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/take_new_order"
+            android:text="@string/add_new_order"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnGRVNote"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/sep_new"
+            android:text="GRV Note"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnCollectPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/icon4"
+            android:text="Pending Invoice"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnFinishActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/sep_new"
+            android:text="Finish "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

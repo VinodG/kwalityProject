@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        android:id="@+id/tvListViewHeader"
+        style="@style/TextHeaderLarge"
+        android:text="" /> -->
+
+    <include layout="@layout/header_textview_gray"/>
+    <LinearLayout style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            style="@style/TextHeaderGray" />
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/btnAddItems"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/add"
+                android:text="Add Items" />
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@style/Btn_Green"
+                android:drawableLeft="@drawable/icon4"
+                android:text="Save" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <TextView
+        android:id="@+id/tvNoRecorFound"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:gravity="center"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/gray"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvCustomerList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

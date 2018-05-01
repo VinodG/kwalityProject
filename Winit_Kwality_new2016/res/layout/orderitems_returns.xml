@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvShopName"
+        style="@style/TextHeaderLarge"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:background="@drawable/topbgbg"
+        android:text="MIAMI STYLE MIN MART" />
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            style="@style/TextHeaderGray"
+            android:text="Return Order" />
+
+        <TextView
+            android:id="@+id/tvAdd"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/add"
+            android:text="add" />
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/check5"
+            android:text="confirm" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Layout_Top_GreenBar" >
+
+        <TextView
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:text="Item Code &amp; Item Name" />
+
+        <TextView
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Cases" />
+
+        <TextView
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="PCs" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvOrderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total value :"
+            style="@style/TextHeaderGreenBG" />
+
+        <TextView
+            android:id="@+id/tvOrderAmount"
+            style="@style/TextHeaderGreenBG"
+            android:text="Rs1600.00" />
+    </LinearLayout>
+
+</LinearLayout>

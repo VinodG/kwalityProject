@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvAssetRequestTitle"
+            style="@style/TextHeaderGray"
+            android:text="Asset Request"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/Btn_Green"
+            android:layout_width="@dimen/btn_width_small"
+            android:gravity="center"
+            android:text="Submit"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_10"
+        android:paddingLeft="@dimen/margin_5"
+        android:paddingRight="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_10" >
+
+        <TextView
+            android:id="@+id/tvSelectDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:gravity="center_vertical|left"
+            android:hint="Select date"
+            android:paddingLeft="@dimen/size5"
+            android:paddingRight="@dimen/size3"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvSelectAssets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size20"
+            android:layout_marginRight="@dimen/size5"
+            android:layout_marginTop="@dimen/size20"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset"
+            android:paddingLeft="@dimen/size5"
+            android:paddingRight="@dimen/size28"
+            android:singleLine="true"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_normal" />
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size25"
+            android:background="@drawable/input_new"
+            android:gravity="center_vertical|left"
+            android:hint="Enter quantity"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:paddingLeft="@dimen/size5"
+            android:singleLine="true"
+            android:text="1"
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+</LinearLayout>

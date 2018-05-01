@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/size20"
+    android:paddingTop="@dimen/size20" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/jrney_item_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cash_bg" />
+
+        <TextView
+            android:id="@+id/tvCashDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size30"
+            android:paddingBottom="@dimen/size10"
+            android:text="07:14"
+            android:textColor="#008711"
+            android:textSize="34sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size10"
+        android:layout_weight="0.7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 SPICE RESTAURANT ALT"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jabel Ali Dip,MXB"
+            android:textSize="28sp" />
+        
+       
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/size70"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/site_id"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvSiteID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="M54896 "
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/size70"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/avail_limit"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvAvailLimt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="AED 2569"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/size70"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/overdue"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="@dimen/size5"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textColor="@color/gray_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvOverdue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="AED 00.00"
+                android:textColor="@color/blue_sky"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+<ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/visited"/>
+</LinearLayout>

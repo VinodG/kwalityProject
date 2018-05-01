@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTopLayout"
+        style="@style/Layout_Top_withBtn"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="0dip" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            style="@style/TextHeaderGray"
+            android:visibility="visible" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/llOrdersheetAddNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="3dip"
+            android:paddingTop="10dip"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btnOrdersheetAddNew"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_request"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/arrow_grey"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="10dp"
+                android:paddingRight="@dimen/margin_8"
+                android:text="Add Items"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llOrdersheetVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnOrdersheetVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_submit"
+                android:gravity="center"
+                android:text="Submit"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="7dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver"
+        android:contentDescription="@string/approved" />
+
+    <LinearLayout
+        android:id="@+id/llSearchBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Search_height"
+        android:background="@drawable/searchbg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rlWareHouse"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Search_height"            
+            android:background="@drawable/topbgbg"
+            android:gravity="center_vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/tvWareHouse"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_marginRight="@dimen/size9"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/dropdwn2"
+                android:gravity="center"
+                android:hint="Select Category"
+                android:orientation="vertical"
+                android:singleLine="true"
+                android:clickable="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/text_size_normal" >
+            </TextView>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/size9"
+                android:layout_toRightOf="@id/tvWareHouse"
+                layout="@layout/search_bar_dark_new" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar"
+        android:paddingLeft="0dip"        
+        android:paddingRight="0dip" >
+
+        <ImageView
+            android:id="@+id/ivCheckAllItems1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_weight="0"
+            android:contentDescription="@string/approved"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:src="@drawable/uncheckbox_white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivSepCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="@dimen/size100"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Item Code"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_15"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/size10"
+            android:paddingTop="@dimen/size10"
+            android:singleLine="true"
+            android:text="@string/Item_Code_Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_large" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+             >
+        <ImageView
+            android:id="@+id/ivRecomendedLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvRecomendedLoad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Recm Qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_large"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivSeprator"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvVanQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Van_qty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_large"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvUOM"
+            android:layout_width="@dimen/size50"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_large"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivSepUN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvTotalQtUN"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Van Qty"
+            android:textSize="@dimen/text_size_very_large" 
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved" />
+
+        <TextView
+            android:id="@+id/tvQtyInCS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Unit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_large" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvQty"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="QTY" />
+
+            <ImageView
+                android:layout_width="@dimen/size100"
+                android:layout_height="fill_parent"
+                android:background="@drawable/horizontal_divider"
+                android:contentDescription="@string/approved"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TextHeaderGreenBG"
+                    android:layout_width="@dimen/size50"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="UNIT" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/sep_new"
+                    android:contentDescription="@string/approved"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvQtyInEA"
+                    style="@style/TextHeaderGreenBG"
+                    android:layout_width="@dimen/size50"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="PCS"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvTotalQt"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="@dimen/size80"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Fullfil Qty"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:contentDescription="@string/approved"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvFullFilQty"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="@dimen/size80"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Fullfil Qty"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivCheckAllItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_marginRight="@dimen/size10"
+            android:layout_weight="0"
+            android:contentDescription="@string/approved"
+            android:src="@drawable/check_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/size10"
+        android:text="Please tap on Load Req button to add items for load request."
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:visibility="visible" >
+    </ListView>
+
+    <ScrollView
+        android:id="@+id/svLoadStock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/llordersheet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

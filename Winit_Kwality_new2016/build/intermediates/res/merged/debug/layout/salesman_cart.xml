@@ -1,0 +1,599 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/size10"
+            android:singleLine="true"
+            android:text="Shopping Cart"
+            android:textColor="#323232"
+            android:textSize="@dimen/size21"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/add_item_btn"
+            android:drawableLeft="@drawable/add_icon"
+            android:drawablePadding="@dimen/margin_5"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:text="Add Item "
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPreviewOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/preview_btn"
+            android:drawableLeft="@drawable/preview"
+            android:drawablePadding="@dimen/margin_5"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="@dimen/margin_5"
+            android:text="Preview Order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_divider" />
+
+    <TextView
+        android:id="@+id/tvAgenciesName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_15"
+        android:singleLine="true"
+        android:textColor="#018316"
+        android:textSize="@dimen/size20"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/topbgbg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvAgencies"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="center_vertical"
+                android:hint="All Categories"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/size10"
+                android:paddingRight="@dimen/size10"
+                android:paddingTop="@dimen/size3"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/size16" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/size10"
+                android:background="@drawable/select_agency" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" >
+
+            <include layout="@layout/search_bar_dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeaderWithTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_bar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvOrderPreviewItemName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="9dip"
+            android:text="Item Code &amp; Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <LinearLayout
+            android:id="@+id/llOrderPreviewunits"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvOrderPreviewunits"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Each"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="@dimen/width_total_pr"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <LinearLayout
+            android:id="@+id/llPrice"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Each \nPrice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvPriceUnit"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:paddingBottom="@dimen/margin_2"
+                android:paddingRight="@dimen/margin_5"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <LinearLayout
+            android:id="@+id/llTotalPrice"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTotalPrice"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Total \nPrice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvTotalPriceUnit"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:paddingBottom="@dimen/margin_2"
+                android:paddingRight="@dimen/margin_5"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <LinearLayout
+            android:id="@+id/llDiscount"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvDiscount"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Disc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvDiscountUnit"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:paddingBottom="@dimen/margin_2"
+                android:paddingRight="@dimen/margin_5"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+
+        <LinearLayout
+            android:id="@+id/llInvoiceAmount"
+            android:layout_width="@dimen/width_confer"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvInvoiceAmount"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Invoice Price"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvInvoiceAmountUnit"
+                android:layout_width="@dimen/width_confer"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:paddingBottom="@dimen/margin_2"
+                android:paddingRight="@dimen/margin_5"
+                android:text="AED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_very_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_hor" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:childDivider="@color/transparent"
+        android:childIndicator="@null"
+        android:fadingEdge="none"
+        android:groupIndicator="@null" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="#339E40" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:layout_marginTop="@dimen/margin_2"
+        android:background="#FFDB20" />
+
+    <LinearLayout
+        android:id="@+id/llPricing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@drawable/last_invoice_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_7"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Last Invoice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvLastInvoiceDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="1dip"
+                android:singleLine="true"
+                android:text="Oct 5 2014"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/margin_7"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="AED"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tvLastInvoiceAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:text="2035150.00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/last_five_invoice_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_7"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Last 5 Invoices"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="1dip"
+                android:singleLine="true"
+                android:text="Oct 5 2014"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/margin_7"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="AED"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tvAvgInvoiceAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:gravity="center_vertical"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:text="2035150.00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/Order_value"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/tvOrderValue"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:text="AED 300.00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Discount Value"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/tvDiscValue"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dip"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:imeOptions="actionDone"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:text="AED 0.00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/Total_value"
+                    android:textColor="#018517"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="#018517"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:id="@+id/tvTotalValue"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dip"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:padding="1dip"
+                    android:singleLine="true"
+                    android:text="AED 53230.00"
+                    android:textColor="#018517"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

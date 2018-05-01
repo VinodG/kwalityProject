@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thingsbgsmall"
+    android:orientation="vertical" >
+    
+    <!-- <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dettols new gamble"
+        android:textSize="@dimen/text_size_large"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_title"
+        android:textColor="#5A5A5A"/>
+    
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dot_seperator" />
+     
+     <ImageView 
+         android:id="@+id/iv_contentimg"
+         android:layout_margin="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="350dip"
+         android:background="@drawable/ritz1"/>
+     
+      <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dettols new gamble"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_content"
+        android:textColor="#5A5A5A"/> -->
+        
+        <WebView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wvHtml"/>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_5" >
+
+    <ImageView
+        android:id="@+id/ivVehical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vehicle_logo" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivServedOrder"
+                android:layout_width="5dip"
+                android:layout_height="53dip"
+                android:background="@color/customer_served"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvMngStfName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_very_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMngStfMemberId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="vh"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_very_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPendingStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="@dimen/margin_5"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FFCC00"
+                android:textSize="@dimen/text_size_normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivInner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:src="@drawable/next_arrow"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTodayDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/gray_light"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivOuter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:src="@drawable/next_arrow" />
+
+</LinearLayout>

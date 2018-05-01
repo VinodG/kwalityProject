@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTopLayout"
+        style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            style="@style/TextHeaderGray"
+            android:visibility="visible" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/llOrdersheetVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:splitMotionEvents="false" >
+
+            <Button
+                android:id="@+id/btnOrdersheetVerify"
+                style="@style/Btn_Green_wrap"
+                android:layout_width="100dp"
+                android:background="@drawable/btn"
+                android:drawableLeft="@drawable/icon_submit_big"
+                android:drawableRight="@drawable/arrow_grey"
+                android:gravity="center_vertical"
+                android:text="Verify"
+                android:textColor="@color/gray_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llPrintStockDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:splitMotionEvents="false"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnPrint_stock_details"
+                style="@style/Btn_Green_wrap"
+                android:layout_width="100dp"
+                android:background="@drawable/btn"
+                android:drawableLeft="@drawable/icon_submit_big"
+                android:drawableRight="@drawable/arrow_grey"
+                android:gravity="center_vertical"
+                android:text="Print"
+                android:textColor="@color/gray_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sep_ver" />
+
+    <include layout="@layout/search_bar_new" />
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar"
+        android:paddingBottom="6dp"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/tvDescription"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_15"
+            android:singleLine="true"
+            android:text="@string/Item_Code_Description"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvQty"
+                style="@style/TextHeaderGreenBG"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Req.Qty"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <ImageView
+                android:id="@+id/ivApprovedSep"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/llApproved"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tvApprovedQty"
+                    style="@style/TextHeaderGreenBG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="App. Qty"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivCollectedSep"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sep_new"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/llCollectedQty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tvCollectedQty"
+                    style="@style/TextHeaderGreenBG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Coll. Qty"
+                    android:textSize="@dimen/text_size_extra_large" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/size10"
+        android:text="Please tap on Load Req button to add items for load request."
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:visibility="visible" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/popup_roundcorner"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/checkstore" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_poptitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Order Placed"
+                        android:textColor="#484138"
+                        android:textSize="@dimen/text_size_extra_large"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_poptitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Successfully"
+                        android:textColor="#484138"
+                        android:textSize="@dimen/text_size_extra_large"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_popup_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/print_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Print"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btn_popup_capture_inovice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/return_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Capture Invoice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:id="@+id/btn_popup_print_Kwality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/print_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Print-Kwality"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_popup_collectpayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/collection_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Collect Payment"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_popup_returnreq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/return_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Return Request"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_popup_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/taks_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Task"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_popup_survey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/order_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Survey"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPlaceNewOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/discont_button__click"
+                android:drawableLeft="@drawable/taks_order"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/check2_new"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:text="Place New Order"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_popup_done"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_done_click"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Done"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvListViewHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/size10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size18" />
+
+    <RelativeLayout
+        android:id="@+id/rlItemCell"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selected"
+        android:paddingRight="@dimen/size10" >
+
+        <View
+            android:id="@+id/sideView"
+            android:layout_width="5dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/size1"
+            android:background="@color/customer_served" />
+
+        <ImageView
+            android:id="@+id/ivDownloadPlanogramIcons"
+            android:layout_width="@dimen/size70"
+            android:layout_height="@dimen/size70"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/sideView"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ivArowRight"
+            android:layout_toRightOf="@+id/ivDownloadPlanogramIcons"
+            android:gravity="center_vertical|left"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/size5"
+            android:paddingLeft="@dimen/size6"
+            android:paddingTop="@dimen/size5" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvAddressLine1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/size15" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvSitename"
+                    android:layout_width="@dimen/size50"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Site Id :"
+                    android:textColor="@color/gray_light" />
+
+                <TextView
+                    android:id="@+id/tvAddressLine2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvInOutTime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="@dimen/size13" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDueDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/size15" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivArowRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arro" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_newproduct1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="New Product Launch"
+            android:textColor="@color/greenText"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_axeanarchy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Dettol&apos;s new gamble"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dip"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:scaleType="fitXY"
+            android:background="@drawable/detol_launch" />
+
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:text="This is the first time that the brand, strong in the personal care space, has moved into kitchen and utensil cleaning. Despite Reckitt Benckiser’s traditional strengths in the area, will the latest"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tv_des2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Ingredients:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_des3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:text="The comparison has set tongues wagging. Taking a leaf out of rival Hindustan Unilever’s marketing manual, British consumer goods major Reckitt Benckiser (RB) launched an ad last week that compared its latest Dettol extension — a product for kitchen and utensil cleaning- with market leader Vim."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</ScrollView>

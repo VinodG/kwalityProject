@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/TextHeaderGrayW0"
+            android:text="Return Order Summary" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnReprint"
+            style="@style/Btn_Green"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:clickable="false"
+            android:drawableLeft="@drawable/print_conf_white"
+            android:drawablePadding="@dimen/margin_10"
+            android:padding="@dimen/margin_10"
+            android:text="Print"           
+            android:layout_marginRight="@dimen/margin_10"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        style="@style/Layout_Top_GreenBar"
+        android:padding="@dimen/size8" >
+
+        <TextView
+            android:id="@+id/tvItemCodeDesc"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Item Code &amp; Description" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvUOM"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="UOM" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvReqQty"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Req.Qty"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvApproved"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Approved"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvCollected"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Collected"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvThumb"
+            style="@style/TextHeaderGreenBG"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thumb" />
+    </LinearLayout>
+
+    <include layout="@layout/listview" />
+
+</LinearLayout>

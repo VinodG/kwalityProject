@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvItemcode"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/llHeaderWithTitle"
+        style="@style/Layout_Top_GreenBar" >
+
+        <ImageView
+            android:id="@+id/ivSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_normal"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tvOrderPreviewItemName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/margin_2"
+                android:paddingBottom="@dimen/margin_2"
+                android:gravity="left|center_vertical"
+                android:text="Ord. Item &amp; Desc."
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvOrderPreviewCases"
+                android:layout_width="33dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="UOM"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvOrderPreviewunits"
+                android:layout_width="45dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ord. QTY"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tvOrderPreviewItemName1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="Ofr. Item &amp; Desc."
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvOrderPreviewCases1"
+                android:layout_width="33dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:gravity="center"
+                android:text="UOM"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tvAvailunits"
+                android:layout_width="45dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ofr. Qty"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llProductDetailMiddleChield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

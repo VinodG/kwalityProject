@@ -1,0 +1,1562 @@
+[
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\product_catalog_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\product_catalog_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\header_textview_gray.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\header_textview_gray.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\adapter.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\adapter.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\demand_inventory_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\demand_inventory_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\survey_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\survey_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\btn_sync.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\btn_sync.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary_list_item_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_summary_list_item_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_statement_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_statement_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\movementdetail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\movementdetail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_presales.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_presales.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_print.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_print.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transferin_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\graph_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\graph_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell_group.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_in_cell_group.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\unvisited_customers_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\unvisited_customers_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\recommended_order.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\recommended_order.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\itemprice_listcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\itemprice_listcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\stock_inventory.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\stock_inventory.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_damaeged_image.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_damaeged_image.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\todaysdashboardnew.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\todaysdashboardnew.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_header.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transferin_header.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_light_small.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_light_small.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_payment_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\fragment_payment_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\radio_options_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\radio_options_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\eot_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\eot_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\productcatalog.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\productcatalog.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assetservice.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assetservice.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_info.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_info.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\saved_order_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\saved_order_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_list_content.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transferin_list_content.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\pager_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\pager_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\monthlyhistory.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\monthlyhistory.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_details_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_status_details_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_new1.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\checkin_new1.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\changepassword.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\changepassword.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\tasktodo.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\vanstock_load_request_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\vanstock_load_request_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\salesman_cart.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\salesman_cart.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\calenderviewxml.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\calenderviewxml.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_agent_order_list_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_agent_order_list_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\lastordersdetails.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\lastordersdetails.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\spinner_item_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\product_category_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\product_category_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_2_list_child_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_2_list_child_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_confirmation.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_confirmation.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\monthely_performance.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\monthely_performance.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_in_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cheque_details_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cheque_details_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list_cell_freedelivery.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_order_list_cell_freedelivery.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_order_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_abhi.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder_abhi.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\video_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\video_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_header_small.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\list_item_header_small.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\log_report.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\log_report.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\activity_payment_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\esignature_order_preview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\esignature_order_preview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\brand_recommended_order_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\brand_recommended_order_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_status_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\skip_journey_plan_popup_.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\skip_journey_plan_popup_.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\survey_answer_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\survey_answer_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_mode_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_mode_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\initiativeimage_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\initiativeimage_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\input_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\input_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\esignature_order_preview_free_delivery.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\esignature_order_preview_free_delivery.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\about_application.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\about_application.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\grid_product_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\grid_product_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\callistviewcellxml.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\callistviewcellxml.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preseller_invoice_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preseller_invoice_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\btn_popup_green.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\btn_popup_green.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\map_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\map_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\demand_inventory_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\demand_inventory_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_qty_cell_old.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\inventory_qty_cell_old.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\unvisited_customer_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\unvisited_customer_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_out.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_out.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\productcatlog_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\productcatlog_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_printer_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_printer_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\free_delivery_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\coverflow_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\coverflow_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\recommendedorderheader.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\recommendedorderheader.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_list_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_list_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_order_header.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_order_header.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_details.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_details.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_preview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_deliver_preview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\media.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\media.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\bluetoothfileprinter.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\bluetoothfileprinter.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\tasks_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\tasks_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify_latest.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_to_verify_latest.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\inventory_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\image_bg_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\image_bg_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\promotion_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\promotion_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assets_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\dropdown.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cash_denomination.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cash_denomination.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\house_contact_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\house_contact_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\journey_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\journey_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\no_data_textview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\no_data_textview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\initiativeslist.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\initiativeslist.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\add_load_request_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\add_load_request_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\emotion_options.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\emotion_options.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\image_full_dialog.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\image_full_dialog.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\direct_invoicing.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\direct_invoicing.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_at_customer.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\checkin_at_customer.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreentheme.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\splashscreentheme.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\topselling_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\topselling_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\paymentlistcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\paymentlistcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\movement_detail_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\movement_detail_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\lastordercell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\lastordercell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_load_view_stock.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_load_view_stock.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\divider_normal.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\divider_normal.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\check_in.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\check_in.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\receive_payment_main.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\receive_payment_main.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_trace_summary_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_trace_summary_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\currency_note_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\currency_note_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_content.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\product_detail_content.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\currencynotedetailcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\currencynotedetailcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\activity_return_order_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\activity_return_order_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_inventry_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_inventry_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\recomendqt.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\recomendqt.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_summary_top_bar.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_summary_top_bar.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\scan_result_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\scan_result_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\divider_dotted.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\divider_dotted.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\check_options_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\check_options_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_content_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\product_detail_content_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\activity_return_order_status.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\activity_return_order_status.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\btn_upload.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\btn_upload.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderfulfillment.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderfulfillment.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_cell_for_grid.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder_cell_for_grid.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary_report.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_summary_report.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header_ar.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_header_ar.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\my_activities.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\my_activities.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\monthperformance.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\monthperformance.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\ratingbar.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\ratingbar.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_check_in_new_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_check_in_new_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\storecheck_qty_gridview_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\storecheck_qty_gridview_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\load_request_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\load_request_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\direct_invoicing_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\direct_invoicing_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\unload_data_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\unload_data_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_statement_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_statement_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_detail_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_detail_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\itemprice.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\itemprice.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preseller_receive_payment.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preseller_receive_payment.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\ar_colloection_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\ar_colloection_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\house_contact_detail_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\house_contact_detail_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\popup_keyboard.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\popup_keyboard.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\splash_theme_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\splash_theme_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\survey_question.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\survey_question.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_menu.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\bluetooth_menu.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderfulfillment_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderfulfillment_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\itemscan.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\itemscan.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cash_credit_invoice_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cash_credit_invoice_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\edit_saved_order.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\edit_saved_order.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\emotion_image_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\emotion_image_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\reason_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\reason_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\managespace.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\managespace.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header_freedelivery.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_header_freedelivery.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_text_view.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_text_view.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_trace_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_trace_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_planogram_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_planogram_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\daily_summary_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\daily_summary_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_cell_eot.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_cell_eot.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\thingstofocus_fullpagercell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\thingstofocus_fullpagercell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\planogram_execution.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\planogram_execution.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\sync_log_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\sync_log_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\header_textview_gray_with_btn.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\header_textview_gray_with_btn.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\signature_driver_supervsor.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\signature_driver_supervsor.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_to_verify.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\date_filter_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\date_filter_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_item_header.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\free_delivery_item_header.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_returns.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_returns.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell_chield.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_in_cell_chield.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_check_in_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_check_in_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo_list_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\tasktodo_list_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\collected_payment_list_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\collected_payment_list_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_dark_full.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_dark_full.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\additem_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\additem_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\enter_barcode_manually.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\enter_barcode_manually.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_summaryofday.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_summaryofday.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\initiative_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\initiative_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_in_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\agencywise_performance.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\agencywise_performance.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_customer_eot.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_customer_eot.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\ar_collection.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\ar_collection.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_agent_order_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_agent_order_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary_list_item_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_summary_list_item_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\inventory_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\sync_log_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\sync_log_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\base.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\base.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\scan_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\scan_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\missedorderlist.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\missedorderlist.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\image_bg_cell_competetor.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\image_bg_cell_competetor.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_inventory_qty.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_inventory_qty.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\unload_title.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\unload_title.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_order_complete.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_order_complete.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_pager.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\gallery_pager.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_inventory_qtynew.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_inventory_qtynew.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\survey_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\survey_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_common_popup_checkout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_common_popup_checkout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\listcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\listcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\paymentchequecell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\paymentchequecell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\popup_storecheck_confirmation.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\popup_storecheck_confirmation.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\print_sales_order.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\print_sales_order.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customertypepopup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customertypepopup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\basenew.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\basenew.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\todaysdashboard.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\todaysdashboard.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\signature_driver_supervsor_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\signature_driver_supervsor_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_out_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_out_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_deliver_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\consumerservey_que_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\consumerservey_que_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\bank_list_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\bank_list_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\grid_view_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\lastorders.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\lastorders.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\my_activity_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\my_activity_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\recommendedorder.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\recommendedorder.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\asset_details.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\asset_details.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\media_inner_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\media_inner_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\stockverification.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\stockverification.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_upcomming_detail_content.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_upcomming_detail_content.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary_report_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_summary_report_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\brands_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\brands_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_listcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_listcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\saved_order_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\saved_order_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_item_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_item_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_preview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_preview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\password_driver_supervsor_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\password_driver_supervsor_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\add_new_sku_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\add_new_sku_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_item_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_item_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\thingstofocus1.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\thingstofocus1.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\quesions_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\quesions_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assets_request.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assets_request.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_stock_option.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_stock_option.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\invoice_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\invoice_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\yesnolayout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\yesnolayout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\storecheck_categories.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\storecheck_categories.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_agent_order_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_agent_order_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\woosim.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\woosim.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\popup_reminder.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\popup_reminder.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking_parent.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_boking_parent.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_statement_detail_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_statement_detail_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\free_delivery_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\update_contact_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\update_contact_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\check_radio_options.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\check_radio_options.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\odometer_reading.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\odometer_reading.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\daily_summary.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\daily_summary.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\summaryofday.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\summaryofday.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\pending_invoices_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\pending_invoices_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_common_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_common_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\summary_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\summary_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\scan.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\scan.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_upcomming_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_upcomming_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\receive_payment_new2.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\receive_payment_new2.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\sortby_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\sortby_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\taskdetails.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\taskdetails.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\message_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\message_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\catelog_brand.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\catelog_brand.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_cell_checkout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder_cell_checkout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_stock_from_vehicle.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_stock_from_vehicle.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_qty.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\inventory_qty.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\fullimage.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\fullimage.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_check_in_new_customer.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_check_in_new_customer.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\lastorderdetailcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\lastorderdetailcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\captureinventory.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\captureinventory.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\productcatalognew.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\productcatalognew.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\storecheck_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\storecheck_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_options.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\checkin_options.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\check_in_preseller.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\check_in_preseller.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assetscanlist_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assetscanlist_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_layout_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\gallery_layout_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\grid_view.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\footer_price.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\footer_price.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\survey_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\survey_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\log_report_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\log_report_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\mapview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\mapview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_return_stock.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_return_stock.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\tasktodo_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_gridview_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_gridview_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\consumersurvey_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\consumersurvey_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_language.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_language.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_header.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\brand_recommended_order_list_item_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\brand_recommended_order_list_item_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_verify_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_verify_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\popup_changepassword.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\popup_changepassword.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\fullimage2.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\fullimage2.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking_child.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_boking_child.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_competitor_info.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_competitor_info.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\grid_view_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_add_stock.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_add_stock.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\tabbed_menu.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\tabbed_menu.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_trace.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\activity_order_trace.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\lpo_narration.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\lpo_narration.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\dashboard_options_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\dashboard_options_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\price_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\price_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\salesman_recommended_order.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\salesman_recommended_order.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\fusion_chart.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\fusion_chart.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\callistviewcellxml_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\callistviewcellxml_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\primary_shelf_placement.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\primary_shelf_placement.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary_list_item_header.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_summary_list_item_header.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\checkin_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\add_stock_inventory_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\add_stock_inventory_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\vanstock_movement_detail_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\vanstock_movement_detail_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_preview_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_deliver_preview_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\thingstofocus.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\thingstofocus.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\mng_stf_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\mng_stf_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\list_brand_group_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\list_brand_group_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assets_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\servey_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\servey_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_upcomming_detail_content_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_popup_upcomming_detail_content_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\return_order_summary_list_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\return_order_summary_list_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_statement.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_statement.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\thingstofocus2.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\thingstofocus2.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\notes.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\notes.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cash_denom.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cash_denom.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cradit_limit_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cradit_limit_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\journey_item_listcell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\journey_item_listcell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_list_cell_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_list_cell_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\add_stock_inventory.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\add_stock_inventory.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\captureshelfphoto.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\captureshelfphoto.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_productivity.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\coverage_productivity.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\ar_collection_list_details_assets.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\ar_collection_list_details_assets.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\result_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\result_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\cheque_details_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\cheque_details_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_status_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\edit_line.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\edit_line.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_dark_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_dark_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\bluetooth_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\transfer_in.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\edit_saved_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\edit_saved_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\item_list_to_verify_new.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customerhitorypopup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customerhitorypopup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\graphview.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\graphview.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assetscanlist.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assetscanlist.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_dark.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\search_bar_dark.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_boking.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\ar_collection_list_details.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\ar_collection_list_details.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\shelf_share_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\shelf_share_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\notification_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\notification_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\journeyplan.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\journeyplan.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\order_summary_detail.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\order_summary_detail.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\summary_load_request_screen.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\summary_load_request_screen.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\payment_details_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\payment_details_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\user_message_view.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\user_message_view.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\media_option.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\media_option.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\assetscan.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\assetscan.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customerlist.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customerlist.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\pending_invoice_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\pending_invoice_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_list_item.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\delivery_status_list_item.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\consumersurvey.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\consumersurvey.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\preview_order_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_detail_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\competitor_detail_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\thingstofocus_pagercell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\thingstofocus_pagercell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\sample_menu.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\sample_menu.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\option_layout.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\option_layout.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_deliver.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_return_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\orderitems_return_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\planogram_execution_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\planogram_execution_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_list_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_list_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\takephoto.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\takephoto.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\btn_popup_yellow.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\btn_popup_yellow.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\capture_image_content.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\capture_image_content.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\chekin_edit_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\chekin_edit_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\select_warehouse_popup.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\select_warehouse_popup.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_cell_abhi.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_builder_cell_abhi.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\task_list_content.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\task_list_content.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\customer_list.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\customer_list.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\product_catlog.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\product_catlog.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\store_check_categorie_grid.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\store_check_categorie_grid.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_qty_cell.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\inventory_qty_cell.xml"
+    },
+    {
+        "merged": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\build\\intermediates\\res\\merged\\debug\\layout\\custom_common_popup_new.xml",
+        "source": "D:\\kwality  26-03-2018\\Winit_Kwality_new2016\\res\\layout\\custom_common_popup_new.xml"
+    }
+]

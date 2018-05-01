@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dip" >
+
+
+        <TextView
+            android:id="@+id/tvStoreCheckChildCell"
+            android:layout_width="@dimen/size80"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:paddingLeft="5dip"
+            android:text="Text"
+            android:padding="@dimen/size10"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/etStoreCheckChildCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:maxLines="2"
+            android:minLines="1"
+            android:paddingLeft="5dip"
+            android:textSize="@dimen/text_size_normal"
+            android:text="Text Detail"
+            android:textColor="@color/gray_light" />
+
+</LinearLayout>

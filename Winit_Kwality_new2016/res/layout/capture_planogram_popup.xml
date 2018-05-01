@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivCapturedPlanImage"
+            android:layout_width="300dip"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tvAddComments"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size15"
+            android:paddingBottom="@dimen/size5"
+            android:singleLine="true"
+            android:text="Add Comments"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNotes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size5"
+            android:background="@drawable/notes"
+            android:gravity="top"
+            android:hint="Enter Comments"
+            android:paddingLeft="@dimen/size10"
+            android:paddingTop="@dimen/size10"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_normal" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/Btn_Green_wrap"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/size10"
+            
+            android:background="@drawable/save"
+            android:text="Submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

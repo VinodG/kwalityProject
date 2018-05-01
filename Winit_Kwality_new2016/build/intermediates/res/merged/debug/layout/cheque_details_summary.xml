@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/Layout_Top_withBtn"
+        android:padding="0dp" >
+
+        <TextView
+            android:id="@+id/tvPreviewHead"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="Payment Summary"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/text_size_extra_large" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnPrint_Summarry"
+            style="@style/Btn_Green"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:layout_margin="5dp"
+            android:background="@drawable/done"
+            android:drawableLeft="@drawable/print"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="Print Summary"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            style="@style/Btn_Green"
+            android:background="@drawable/finish_empty"
+            android:gravity="center"
+            android:text="Print"
+            android:textSize="@dimen/text_size_large" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            style="@style/Btn_Green"
+            android:drawableLeft="@drawable/cont"
+            android:text="Continue"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSave_as_Draft"
+            style="@style/Btn_Green_wrap"
+            android:drawableLeft="@drawable/save_draft"
+            android:text="Save as Draft"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/tvTotalCollectionTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="Total Collection"
+                android:textColor="@color/gray_new"
+                android:textSize="@dimen/text_size_very_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPreviewHeadDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/calender"
+                android:drawablePadding="@dimen/margin_5"
+                android:gravity="center_vertical"
+                android:text="Nov 13, 2014"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvTotalCollectionCurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AED"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalCollection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:paddingRight="10dip"
+                android:text="1234"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <include layout="@layout/divider_dotted" /> -->
+
+
+    <!-- this is for cheque details screen -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/margin_10"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Amount"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AED"
+                    android:textColor="#A16F3E"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTotalInvoiceAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_extra_extra_large"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/dotted_vline"
+            android:contentDescription="@string/AddItem" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cheque Amount"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AED"
+                    android:textColor="#A16F3E"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCheckAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_extra_extra_extra_large"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/dotted_hline"
+        android:contentDescription="@string/Add" />
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:text="Zaharaj Al Falaj Gro. ALN[ALZ009]"
+        android:textColor="@color/blue_jp"
+        android:textSize="@dimen/text_size_extra_extra_large" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tvReceiptNO"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Receipt No"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvReceiptNOValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tvPaymentdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Payment Date"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvPaymentDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvCheckNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Cheque Number"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvCheckNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Receipt No"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvCheckdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Cheque Date"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvChequeDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Receipt No"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvBanknm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Bank Name"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvBankNameNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="Receipt No"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llInvoiceAmmountLabelSale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_bar"
+        android:paddingBottom="@dimen/margin_5"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingRight="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_5" >
+
+        <TextView
+            android:id="@+id/tvInvoiceAmmountLabelSale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:singleLine="true"
+            android:text="Invoice No"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/tvInvoiceNumberLabelSale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:singleLine="true"
+            android:text="Amount"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/chequedetails"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

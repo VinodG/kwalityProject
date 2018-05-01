@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/search_bar_new" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/size10"
+            android:paddingTop="@dimen/size10" >
+
+            <TextView
+                android:id="@+id/tvJourneyPlanDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/journey_plan_on"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tvJourneyPlanDateValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" Feb 25th, 2014"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnGlobe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/size10"
+            android:background="@drawable/map" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btnGlobe"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:src="@drawable/ver_divider2" />
+    </RelativeLayout>
+
+    <!-- Parent -->
+
+    <LinearLayout
+        android:id="@+id/llgreenbar"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        style="@style/Layout_Top_GreenBar" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/size10"
+                android:paddingTop="@dimen/margin_5"
+                android:src="@drawable/clock_icon" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size5"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingTop="@dimen/margin_5"
+                android:text="@string/time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_extra_large" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvCustomers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.83"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingTop="@dimen/margin_5"
+            android:text="@string/customers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_extra_large" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tvNoCustomers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No customers found."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/lvEvents"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:divider="@drawable/lv_divider_long"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:scrollbars="none"
+            android:scrollingCache="false" />
+
+        <LinearLayout
+            android:id="@+id/llMap"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/map1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:visibility="visible" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

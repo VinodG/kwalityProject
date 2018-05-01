@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/TextHeaderGray"
+            android:text="Return Order" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/Btn_Green_wrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:drawableLeft="@drawable/refresh"
+            android:padding="@dimen/margin_10"
+            android:text="Refresh"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnAddRequest"
+            style="@style/Btn_Green_wrap"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:drawableLeft="@drawable/icon_submit"
+            android:padding="@dimen/margin_5"
+            android:text="Add Request"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <include layout="@layout/divider_dotted" />
+
+    <TextView
+        android:id="@+id/tvAgenciesName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_15"
+        android:singleLine="true"
+        android:textColor="@color/greenText"
+        android:textSize="@dimen/size20"
+        android:textStyle="bold" />
+
+    <include layout="@layout/divider_dotted" />
+
+    <include layout="@layout/pager_layout" />
+
+</LinearLayout>

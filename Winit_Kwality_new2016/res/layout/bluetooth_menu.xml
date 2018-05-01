@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/Layout_Top_withBtn" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/TextHeaderGray"
+            android:text="Print" />
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/llOrdersheetVerify" -->
+        <!-- android:layout_width="@dimen/size140" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:layout_marginLeft="@dimen/margin_10" -->
+        <!-- android:background="@drawable/btn_yellow" -->
+        <!-- android:gravity="center_vertical" -->
+        <!-- android:paddingLeft="@dimen/margin_10" -->
+        <!-- android:paddingRight="@dimen/margin_10" -->
+        <!-- android:visibility="visible" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/print_conf" -->
+        <!-- android:clickable="false" /> -->
+
+        <Button
+            android:id="@+id/btnReprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:background="@drawable/cancelcurrency"
+            android:clickable="false"
+            android:drawableLeft="@drawable/print_conf"
+            android:drawablePadding="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_10"
+            android:text="Reprint"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:background="@drawable/save"
+            android:clickable="false"
+            android:drawableLeft="@drawable/tick_payment"
+            android:drawablePadding="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_10"
+            android:text="Finish"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:background="@drawable/save"
+            android:clickable="false"
+            android:drawableLeft="@drawable/tick_payment"
+            android:drawablePadding="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_10"
+            android:text="Page Out"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/ButtonSearchBT"
+            style="@style/Btn_Green"
+            android:layout_width="@dimen/btn_width_normal"
+            android:drawableLeft="@drawable/tick_payment"
+            android:text="@string/bt_search_btn" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dot_divider" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_5"
+        android:gravity="center_vertical"
+        android:visibility="visible" >
+
+        <!-- Divide | EditText | Button | -->
+
+        <EditText
+            android:id="@+id/EditTextAddressBT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_weight="1"
+            android:background="@drawable/odometer_input"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/ButtonConnectBT"
+            style="@style/Btn_Green_wrap"
+            android:layout_width="@dimen/btn_width_normal"
+            android:drawableLeft="@drawable/tick_payment"
+            android:text="@string/dev_conn_btn" />
+    </LinearLayout>
+<include layout="@layout/divider_normal"/>
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
